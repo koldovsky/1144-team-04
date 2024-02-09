@@ -1,1 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;500&display=swap')
 /* general properties would be here -> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root {
+    --text-color: #d6fb00;
+    --background-color: #191919;
+    --basic-text-color:#dcdcdc;;
+    --title-color:#fff;
+    --accent-color: #8f8f8f;
+    font-family: "Kanit", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
