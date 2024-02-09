@@ -1,1 +1,18 @@
-personal-training__title
+.personal-training__title { 
+    color: var(--title-color);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+}
+.personal-training__subtitle {
+    color: var(--basic-text-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+.personal-training__text {
+    color: var(--accent-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
