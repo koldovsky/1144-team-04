@@ -1,0 +1,13 @@
+.info-block__subtitle{
+    color: var( --title-color);
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.info-block__text{
+    color: var( --accent-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
