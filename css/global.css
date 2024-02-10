@@ -14,6 +14,11 @@ img {
     width: 100%;
 }
 
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
 :root {
     --text-color: #d6fb00;
     --background-color: #191919;

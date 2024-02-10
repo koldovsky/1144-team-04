@@ -58,9 +58,18 @@
     margin-top: 45px;
 }
 
-.class-item__image-container {}
+.class-item__image-container {
+    width: 100%;
+    height: 50vh;
 
-.class-item__image {}
+}
+
+.class-item__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 .class-item__title-button {
     display: flex;
@@ -81,12 +90,19 @@
     font-size: 24px;
 }
 
+
+
 .our-classes__all-classes-button-container {
     margin-top: 50px;
 }
 
+.class-item__article-text {
+    color: var(--accent-color);
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
 .our-classes__all-classes-button {
-    
     background-color: var(--text-color);
     display: flex;
     justify-content: center;
