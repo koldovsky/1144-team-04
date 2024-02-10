@@ -1,3 +1,5 @@
 /* separate properties would be here -> */
+@import "global.css";
 @import "index.personal-training.css";
 @import "index.informative-icons.css";
+@import "index.our-classes.css"

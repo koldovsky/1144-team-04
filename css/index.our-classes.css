@@ -1,0 +1,88 @@
+.our-classes {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: var(--basic-text-color);
+}
+
+.our-classes__title-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.our-classes__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--title-color);
+}
+
+@media (min-width: 768px) {
+    .our-classes__title {
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 992px) {
+    .our-classes__title {
+        font-size: 54px;
+    }
+}
+
+.our-classes__subtitle {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+.our-classes__content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+    .our-classes__content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .our-classes__content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.content__class-item {
+
+    margin-top: 45px;
+}
+
+.class-item__image-container {
+    width: auto;
+    height: 100%;
+}
+
+.class-item__image {
+    min-width: 272;
+    min-height: 354.6;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.class-item__title-button {
+    padding-top: 20px;
+    background: none;
+    border: none;
+}
+
+.class-item__title-button-text {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 700;
+}
