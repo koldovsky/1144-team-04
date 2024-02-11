@@ -6,11 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-} 
+
+}
 
 img {
-    display: block;
+
     width: 100%;
 }
 
@@ -20,17 +20,20 @@ body {
 }
 
 :root {
+
     --text-color: #d6fb00;
     --background-color: #191919;
-    --basic-text-color:#dcdcdc;;
-    --title-color:#fff;
+    --basic-text-color: #dcdcdc;
+    ;
+    --title-color: #fff;
     --accent-color: #8f8f8f;
+    --footer-email-color: #1e1e1e;
+    --footer-font-size-s: font-size: 15px;
+    --footer-font-sizer-m: font-size: 16px;
+    --footer-font-size-l: font-size: 19px;
     font-family: 'Poppins', sans-serif;
     font-family: "Kanit", sans-serif;
     scroll-behavior: smooth;
     background-color: var(--background-color);
-    
+
 }
-
-
-
