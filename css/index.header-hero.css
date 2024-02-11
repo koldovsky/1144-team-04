@@ -1,0 +1,34 @@
+.header__image{
+    transform: scale(1.5);
+}
+.header__content{
+    position: relative;
+}
+
+.header-main-text__container {
+    width: 50%;
+    position: relative;
+    padding-left: 30px;
+    bottom: 330px;
+}
+
+.header-main-text__title{
+    font-size: 90px;
+    color: var(--title-color);
+}
+
+.header-main-text__word{
+    color: var(--text-color);
+}
+
+.header-main-text__description{
+    color: var(--basic-text-color);
+    font-size: 20px;
+}
+.header__button{
+    background-color: var(--text-color);
+    padding:10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
