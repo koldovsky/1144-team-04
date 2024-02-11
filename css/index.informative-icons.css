@@ -1,8 +1,21 @@
+.info-section{
+    display: flex;
+    text-align: left;
+    padding: 40px 0px;
+    justify-content: space-between;
+   
+}
+
+.info-block__icon{
+    width: 50px;
+}
+
 .info-block__subtitle{
     color: var( --title-color);
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 23px;
+    padding: 0px 10px 0px 10px;
 }
 
 .info-block__text{
@@ -10,4 +23,5 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
+    width: 270px;
 }
