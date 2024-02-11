@@ -10,7 +10,6 @@
 } 
 
 img {
-    display: block;
     width: 100%;
 }
 
@@ -22,7 +21,8 @@ body {
 :root {
     --text-color: #d6fb00;
     --background-color: #191919;
-    --basic-text-color:#dcdcdc;;
+    --background-color-alternate: #1f1f1f;
+    --basic-text-color:#dcdcdc;
     --title-color:#fff;
     --accent-color: #8f8f8f;
     font-family: 'Poppins', sans-serif;
