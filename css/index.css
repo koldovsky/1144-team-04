@@ -2,4 +2,6 @@
 @import "global.css";
 @import "index.personal-training.css";
 @import "index.informative-icons.css";
-@import "index.our-classes.css"
+@import "index.our-classes.css";
+@import "header-nav.css";
+@import "index.header-hero.css"
