@@ -113,6 +113,10 @@
     margin-right: auto;
 }
 
+.class-item__article-container {
+    margin-top: 20px;
+}
+
 .all-button_text {
     color: var(--background-color);
     font-size: 15.4px;

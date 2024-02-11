@@ -1,0 +1,189 @@
+@import url(global.css);
+
+/* Header */
+
+.personal-training-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+    .personal-training-header {
+        flex-direction: row;
+    }
+}
+
+.personal-training-header__left-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left-container__title {
+    color: var(--title-color);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 41.8px;
+}
+
+@media (min-width: 768px) {
+    .left-container__title { 
+        font-size: 46px;
+        line-height: 50.6px;
+    }
+    .personal-training-header__left-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .left-container__title { 
+        font-size: 54px;
+        line-height: 59.4px;
+    }
+}
+
+.left-container__subtitle {
+    color: var(--basic-text-color);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29.64px;
+    font-family: 'Poppins';
+    margin-top: 25px;
+}
+
+.personal-training-header__right-container {
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 768px) { 
+    .personal-training-header__right-container {
+        margin-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (min-width: 1180px) { 
+    .personal-training-header__right-container {
+        margin-top: 0px;
+    }
+}
+
+.right-container__article {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--accent-color);
+    font-family: 'Poppins';
+}
+
+.right-container__join-now-button {
+    margin-top: 35px;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 13px 30px;
+    width: fit-content;
+    border: none;
+}
+
+.right-container__join-now-button-icon {
+    color: var(--background-color);
+}
+
+.right-container__join-now-button-text{
+    color: var(--background-color);
+    font-size: 15.4px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-left: 16px;
+}
+
+/* Article */
+
+.personal-training-article {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) { 
+    .personal-training-article {
+        flex-direction: row;
+    }
+}
+
+.personal-training-article__image-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.personal-training-article__text-container {
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 50px;
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-training-article__title {
+    color: var(--title-color);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 39.9px;
+}
+
+@media (min-width: 768px) { 
+    .personal-training-article__title {
+        font-size: 33px;
+        line-height: 43.89px;
+    }
+    
+    .personal-training-article__image {
+        max-width: 570px;
+    }
+
+    .personal-training-article__text-container {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .personal-training-article__title {
+        font-size: 36px;
+        line-height: 47.88px;
+        font-weight: 600;
+    }
+
+    .personal-training-article__text-container {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 0px;
+    }
+}
+
+.personal-training-article__subtitle {
+    margin-top: 25px;
+    color: var(--basic-text-color);
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.personal-training-article__plain {
+    margin-top: 25px;
+    color: var(--accent-color);
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
