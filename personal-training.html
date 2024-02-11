@@ -1,325 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Training</title>
-    <link
-      rel="shortcut icon"
-      href="img/icons/dumbbell-icon.png"
-      type="image/png"
-    />
-    <link rel="stylesheet" href="css/personal-training.css">
-  </head>
-  <body>
-    <header data-include="header-nav.partial.html"></header>
-    <main>
-      <section class="personal-training-header">
-        <div class="personal-training-header__left-container">
-          <h2 class="left-container__title">PERSONAL TRAINING</h2>
-          <p class="left-container__subtitle">
-            Train 1-on-1 with our experienced coaches to achieve results faster
-            and in a comfortable atmosphere.
-          </p>
-        </div>
-        <div class="personal-training-header__right-container">
-          <p class="right-container__article">
-            Our trainers are dedicated to providing you with the best fitness
-            experience possible during personal training.
-          </p>
-          <button class="right-container__join-now-button">
-            <svg
-              class="right-container__join-now-button-icon"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 100 100"
-              enable-background="new 0 0 100 100"
-              xml:space="preserve"
-              style="max-width: 100%"
-              height="100%"
-            >
-              <g display="none" style="" fill="currentColor">
-                <path
-                  display="inline"
-                  d="M60.267,14.063L14.065,60.27l25.668,25.667l46.201-46.204V14.063H60.267z M72.624,32.219   c-2.671,0-4.84-2.174-4.84-4.841c0-2.678,2.169-4.844,4.84-4.844s4.836,2.166,4.836,4.844   C77.46,30.045,75.295,32.219,72.624,32.219z"
-                  style=""
-                  fill="currentColor"
-                ></path>
-              </g>
-              <g display="none" style="" fill="currentColor">
-                <path
-                  display="inline"
-                  d="M71.686,85.706L69,60l16.982-17.541L62,39L50.001,13.98L38,39l-23.982,3.284L31,60l-2.692,25.676   L49.98,72c0.017,0,0.028,0,0.049,0L71.686,85.706z"
-                  style=""
-                  fill="currentColor"
-                ></path>
-              </g>
-              <g display="none" style="" fill="currentColor">
-                <path
-                  display="inline"
-                  d="M50,17.06c-18.194,0-32.941,14.747-32.941,32.945C17.06,68.192,31.806,82.94,50,82.94   c18.192,0,32.94-14.748,32.94-32.936C82.94,31.807,68.192,17.06,50,17.06z M53.117,73.733V61.981H47.13v11.789   C36.2,72.458,27.52,63.769,26.225,52.831h11.755v-5.993H26.275c1.429-10.777,10.036-19.306,20.855-20.605v11.456h5.987V26.27   c10.701,1.403,19.188,9.875,20.609,20.568H62.274v5.993h11.5C72.488,63.684,63.932,72.317,53.117,73.733z"
-                  style=""
-                  fill="currentColor"
-                ></path>
-              </g>
-              <g display="none" style="" fill="currentColor">
-                <rect
-                  x="14"
-                  y="36"
-                  display="inline"
-                  width="72"
-                  height="27"
-                  style=""
-                  fill="currentColor"
-                ></rect>
-              </g>
-              <g style="" fill="currentColor">
-                <polygon
-                  points="14.033,14.036 44.019,14.036 80,50.018 44.019,86 14.033,86 50.016,50.018  "
-                  style=""
-                  fill="currentColor"
-                ></polygon>
-              </g>
-            </svg>
-            <p class="right-container__join-now-button-text">JOIN NOW</p>
-          </button>
-        </div>
-      </section>
-      <section class="personal-training-article">
-        <div class="personal-training-article__image-container">
-          <img
-            class="personal-training-article__image"
-            src="img/women-with-botte.webp"
-            alt="Woman Standing In Gym With Bottle In Hand"
-          />
-        </div>
-        <article class="personal-training-article__text-container">
-          <p class="personal-training-article__title">
-            WITH THE RIGHT TRAINER, YOU LEAVE THE IMPOSSIBLE BEHIND!
-          </p>
-          <p class="personal-training-article__subtitle">
-            Personal training sessions are always the right choice!
-          </p>
-          <p class="personal-training-article__plain">
-            Your personal fitness instructor will work with you 1-on-1 to define
-            your fitness level, set your individual goals, assess your
-            movements, and offer a program specially designed to optimize your
-            strengths and reach your goals as quickly as possible.
-          </p>
-        </article>
-      </section>
-      <section class="training-benefits">
-        <h2 class="training-benefits__title">TRAINING BENEFITS</h2>
-        <p class="training-benefits__subtitle">
-          Find out why you should sign up for an individual workout session:
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Training</title>
+  <link rel="shortcut icon" href="img/icons/dumbbell-icon.png" type="image/png" />
+  <link rel="stylesheet" href="css/personal-training.css">
+</head>
+
+<body>
+  <header data-include="header-nav.partial.html"></header>
+  <main>
+    <section class="personal-training-header">
+      <div class="personal-training-header__left-container">
+        <h2 class="left-container__title">PERSONAL TRAINING</h2>
+        <p class="left-container__subtitle">
+          Train 1-on-1 with our experienced coaches to achieve results faster
+          and in a comfortable atmosphere.
         </p>
-        <div class="training-benefits__items">
-          <div class="training-benefits__item">
-            <img
-              class="training-benefits__item-icon"
-              width="50"
-              src="img/icons/strong-hand.svg"
-              alt="Strong Hand Icon"
-            />
-            <p class="training-benefits__item-title">LEARN TO STICK TO IT</p>
-            <p class="training-benefits__item-subtitle">
-              We will encourage you to overcome your fitness obstacles. With a
-              personal trainer, it will be easy!
-            </p>
-          </div>
-          <div class="training-benefits__item">
-            <img
-              class="training-benefits__item-icon"
-              width="50"
-              src="img/icons/gym.svg"
-              alt="Strong Hand Icon"
-            />
-            <p class="training-benefits__item-title">
-              THE RIGHT WAY TO WORK OUT
-            </p>
-            <p class="training-benefits__item-subtitle">
-              Your trainer will show you how to use equipment and the best
-              techniques for free-weight training.
-            </p>
-          </div>
-          <div class="training-benefits__item">
-            <img
-              class="training-benefits__item-icon"
-              width="50"
-              src="img/icons/timer.svg"
-              alt="Strong Hand Icon"
-            />
-            <p class="training-benefits__item-title">STOP WASTING TIME</p>
-            <p class="training-benefits__item-subtitle">
-              We offer personalized programs to maximize your results in a short
-              time period. Hurry up!
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="quote-carousel">
-        <button class="quote-carousel__button quote-carousel__button-left">
-          <svg class="quote-carousel__button-left-icon" width="30" class="arrow-svg_1j4" viewBox="0 0 30 30">
-            <defs>
-              <path
-                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                id="a-1706955887007"
-              ></path>
-            </defs>
-            <use
-              fill-rule="nonzero"
-              opacity=".8"
-              xlink:href="#a-1706955887007"
-            ></use>
+      </div>
+      <div class="personal-training-header__right-container">
+        <p class="right-container__article">
+          Our trainers are dedicated to providing you with the best fitness
+          experience possible during personal training.
+        </p>
+        <button class="right-container__join-now-button">
+          <svg class="right-container__join-now-button-icon" width="24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+            enable-background="new 0 0 100 100" xml:space="preserve" style="max-width: 100%" height="100%">
+            <g display="none" fill="currentColor">
+              <path display="inline"
+                d="M60.267,14.063L14.065,60.27l25.668,25.667l46.201-46.204V14.063H60.267z M72.624,32.219   c-2.671,0-4.84-2.174-4.84-4.841c0-2.678,2.169-4.844,4.84-4.844s4.836,2.166,4.836,4.844   C77.46,30.045,75.295,32.219,72.624,32.219z"
+                fill="currentColor"></path>
+            </g>
+            <g display="none" fill="currentColor">
+              <path display="inline"
+                d="M71.686,85.706L69,60l16.982-17.541L62,39L50.001,13.98L38,39l-23.982,3.284L31,60l-2.692,25.676   L49.98,72c0.017,0,0.028,0,0.049,0L71.686,85.706z"
+                fill="currentColor"></path>
+            </g>
+            <g display="none" fill="currentColor">
+              <path display="inline"
+                d="M50,17.06c-18.194,0-32.941,14.747-32.941,32.945C17.06,68.192,31.806,82.94,50,82.94   c18.192,0,32.94-14.748,32.94-32.936C82.94,31.807,68.192,17.06,50,17.06z M53.117,73.733V61.981H47.13v11.789   C36.2,72.458,27.52,63.769,26.225,52.831h11.755v-5.993H26.275c1.429-10.777,10.036-19.306,20.855-20.605v11.456h5.987V26.27   c10.701,1.403,19.188,9.875,20.609,20.568H62.274v5.993h11.5C72.488,63.684,63.932,72.317,53.117,73.733z"
+                fill="currentColor"></path>
+            </g>
+            <g display="none" fill="currentColor">
+              <rect x="14" y="36" display="inline" width="72" height="27" fill="currentColor"></rect>
+            </g>
+            <g fill="currentColor">
+              <polygon points="14.033,14.036 44.019,14.036 80,50.018 44.019,86 14.033,86 50.016,50.018  "
+                fill="currentColor"></polygon>
+            </g>
           </svg>
-          </svg>
+          <p class="right-container__join-now-button-text">JOIN NOW</p>
         </button>
-        <div class="quote-carousel__carousel">
-          <div class="quote-carousel__carousel-track-container">
-            <ul class="quote-carousel__carousel-track">
-              <li class="quote-carousel__carousel-slide">
-                <div class="carousel-slide__image-container">
-                  <img
-                    class="carousel-slide__image"
-                    width="585"
-                    src="img/sitting-man-with-dumbbell.webp"
-                    alt="Sitting Man With Dumbbell"
-                  />
-                </div>
-                <article class="carousel-slide__article">
-                  <svg
-                  class="carousel-slide__article-icon"
-                  width="50"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  version="1.1"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 512 512"
-                  enable-background="new 0 0 512 512"
-                  xml:space="preserve"
-                  style="max-width: 100%"
-                  height="100%"
-                >
-                  <g style="" fill="currentColor">
+      </div>
+    </section>
+    <section class="personal-training-article">
+      <div class="personal-training-article__image-container">
+        <img class="personal-training-article__image" src="img/women-with-botte.webp"
+          alt="Woman Standing In Gym With Bottle In Hand" />
+      </div>
+      <article class="personal-training-article__text-container">
+        <p class="personal-training-article__title">
+          WITH THE RIGHT TRAINER, YOU LEAVE THE IMPOSSIBLE BEHIND!
+        </p>
+        <p class="personal-training-article__subtitle">
+          Personal training sessions are always the right choice!
+        </p>
+        <p class="personal-training-article__plain">
+          Your personal fitness instructor will work with you 1-on-1 to define
+          your fitness level, set your individual goals, assess your
+          movements, and offer a program specially designed to optimize your
+          strengths and reach your goals as quickly as possible.
+        </p>
+      </article>
+    </section>
+    <section class="training-benefits">
+      <h2 class="training-benefits__title">TRAINING <span class="selected-text">BENEFITS</span></h2>
+      <p class="training-benefits__subtitle">
+        Find out why you should sign up for an individual workout session:
+      </p>
+      <div class="training-benefits__items">
+        <div class="training-benefits__item">
+          <img class="training-benefits__item-icon" src="img/icons/strong-hand.svg" alt="Strong Hand Icon" />
+          <p class="training-benefits__item-title">LEARN TO STICK TO IT</p>
+          <p class="training-benefits__item-subtitle">
+            We will encourage you to overcome your fitness obstacles. With a
+            personal trainer, it will be easy!
+          </p>
+        </div>
+        <div class="training-benefits__item">
+          <img class="training-benefits__item-icon" src="img/icons/gym.svg" alt="Strong Hand Icon" />
+          <p class="training-benefits__item-title">
+            THE RIGHT WAY TO WORK OUT
+          </p>
+          <p class="training-benefits__item-subtitle">
+            Your trainer will show you how to use equipment and the best
+            techniques for free-weight training.
+          </p>
+        </div>
+        <div class="training-benefits__item">
+          <img class="training-benefits__item-icon" src="img/icons/timer.svg" alt="Strong Hand Icon" />
+          <p class="training-benefits__item-title">STOP WASTING TIME</p>
+          <p class="training-benefits__item-subtitle">
+            We offer personalized programs to maximize your results in a short
+            time period. Hurry up!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="quote-carousel">
+      <button class="quote-carousel__button quote-carousel__button-left">
+        <svg class="quote-carousel__button-left-icon" class="arrow-svg_1j4" viewBox="0 0 30 30">
+          <defs>
+            <path
+              d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+              id="a-1706955887007"></path>
+          </defs>
+          <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1706955887007"></use>
+        </svg>
+        </svg>
+      </button>
+      <div class="quote-carousel__carousel">
+        <div class="quote-carousel__carousel-track-container">
+          <ul class="quote-carousel__carousel-track">
+            <li class="quote-carousel__carousel-slide">
+              <div class="carousel-slide__image-container">
+                 <img class="carousel-slide__image" src="img/sitting-man-with-dumbbell.webp" 
+                 alt="Sitting Man With Dumbbell" />
+              </div>
+              <article class="carousel-slide__article">
+                <svg class="carousel-slide__article-icon" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512"
+                  enable-background="new 0 0 512 512" xml:space="preserve" style="max-width: 100%" height="100%">
+                  <g fill="currentColor">
                     <path
                       d="M420.586,346.029c0,27.717-6,54.371-17.093,79.371c64.561-43.279,105.525-105.061,107.213-173.808l1.25-1.406V85.381   H299.279v213.306h115.338C418.523,314.029,420.586,329.842,420.586,346.029z"
-                      style=""
-                      fill="currentColor"
-                    ></path>
+                      fill="currentColor"></path>
                     <path
                       d="M116.258,298.688c4.125,15.717,6.281,31.938,6.281,48.527c0,27.719-6.031,54.404-17.124,79.404   c65.402-43.842,106.588-106.621,107.275-176.432h0.031v-0.844c0-0.344,0-0.656,0-1c0-0.344,0-0.688,0-1.031V85.381H0.044v213.306   H116.258z"
-                      style=""
-                      fill="currentColor"
-                    ></path>
+                      fill="currentColor"></path>
                   </g>
                 </svg>
-                  <p class="carousel-slide__article-name-text">CARL WONG</p>
-                  <p class="carousel-slide__article-text">
-                    “Donald Freeman is one of the most professional
-                    weightlifting coaches I have ever worked with. He perfectly
-                    understands my personal needs. His insight, abilities, and
-                    overall knowledge are really unparalleled!”
-                  </p>
-                  <p class="carousel-slide__article-date-text">22 June, 2022</p>
-                </article>
-              </li>
-              <li class="quote-carousel__carousel-slide">
-                <div class="carousel-slide__image-container">
-                  <img
-                    class="carousel-slide__image"
-                    width="585"
-                    src="img/sitting-man.webp"
-                    alt="Sitting Man"
-                  />
-                </div>
-                <article class="carousel-slide__article">
-                  <svg
-                  class="carousel-slide__article-icon"
-                  width="50"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  version="1.1"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 512 512"
-                  enable-background="new 0 0 512 512"
-                  xml:space="preserve"
-                  style="max-width: 100%"
-                  height="100%"
-                >
-                  <g style="" fill="currentColor">
+                <p class="carousel-slide__article-name-text">CARL WONG</p>
+                <p class="carousel-slide__article-text">
+                  “Donald Freeman is one of the most professional
+                  weightlifting coaches I have ever worked with. He perfectly
+                  understands my personal needs. His insight, abilities, and
+                  overall knowledge are really unparalleled!”
+                </p>
+                <p class="carousel-slide__article-date-text">22 June, 2022</p>
+              </article>
+            </li>
+            <li class="quote-carousel__carousel-slide">
+              <div class="carousel-slide__image-container">
+                <img class="carousel-slide__image" src="img/sitting-man.webp" alt="Sitting Man" />
+              </div>
+              <article class="carousel-slide__article">
+                <svg class="carousel-slide__article-icon"  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512"
+                  enable-background="new 0 0 512 512" xml:space="preserve" style="max-width: 100%" height="100%">
+                  <g fill="currentColor">
                     <path
                       d="M420.586,346.029c0,27.717-6,54.371-17.093,79.371c64.561-43.279,105.525-105.061,107.213-173.808l1.25-1.406V85.381   H299.279v213.306h115.338C418.523,314.029,420.586,329.842,420.586,346.029z"
-                      style=""
-                      fill="currentColor"
-                    ></path>
+                     fill="currentColor"></path>
                     <path
                       d="M116.258,298.688c4.125,15.717,6.281,31.938,6.281,48.527c0,27.719-6.031,54.404-17.124,79.404   c65.402-43.842,106.588-106.621,107.275-176.432h0.031v-0.844c0-0.344,0-0.656,0-1c0-0.344,0-0.688,0-1.031V85.381H0.044v213.306   H116.258z"
-                      style=""
-                      fill="currentColor"
-                    ></path>
+                       fill="currentColor"></path>
                   </g>
                 </svg>
-                  <p class="carousel-slide__article-name-text">PATRICK POOL</p>
-                  <p class="carousel-slide__article-text">
-                    "I've started to attend the FitB. I liked it very much and
-                    will continue to train. An understanding coach, if something
-                    is wrong, will immediately help everyone to correct their
-                    mistakes. Friendly team, everything is great!"
-                  </p>
-                  <p class="carousel-slide__article-date-text">
-                    10 March, 2022
-                  </p>
-                </article>
-              </li>
-            </ul>
-          </div>
+                <p class="carousel-slide__article-name-text">PATRICK POOL</p>
+                <p class="carousel-slide__article-text">
+                  "I've started to attend the FitB. I liked it very much and
+                  will continue to train. An understanding coach, if something
+                  is wrong, will immediately help everyone to correct their
+                  mistakes. Friendly team, everything is great!"
+                </p>
+                <p class="carousel-slide__article-date-text">
+                  10 March, 2022
+                </p>
+              </article>
+            </li>
+          </ul>
         </div>
-        <button class="quote-carousel__button quote-carousel__button-right">
-          <svg class="quote-carousel__button-right-icon" width="30" class="arrow-svg_1j4" viewBox="0 0 30 30">
-            <defs>
-              <path
-                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                id="a-1706955887007"
-              ></path>
-            </defs>
-            <use
-              fill-rule="nonzero"
-              opacity=".8"
-              xlink:href="#a-1706955887007"
-            ></use>
-          </svg>
-        </button>
-      </section>
-      <section class="contact-section">
-        <div class="contact-section__left-container">
-          <p class="contact-section__left-container-title">
-            START PERSONAL TRAINING AND KEEP FIT!
-          </p>
-          <p class="contact-section__left-container-subtitle">
-            You'll see stunning results and changes in your body.
-          </p>
+      </div>
+      <button class="quote-carousel__button quote-carousel__button-right">
+        <svg class="quote-carousel__button-right-icon" class="arrow-svg_1j4" viewBox="0 0 30 30">
+          <defs>
+            <path
+              d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+              id="a-1706955887007"></path>
+          </defs>
+          <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1706955887007"></use>
+        </svg>
+      </button>
+    </section>
+    <section class="contact-section">
+      <div class="contact-section__left-container">
+        <p class="contact-section__left-container-title">
+          START PERSONAL TRAINING AND KEEP FIT!
+        </p>
+        <p class="contact-section__left-container-subtitle">
+          You'll see stunning results and changes in your body.
+        </p>
+      </div>
+      <div class="contact-section__right-container">
+        <p class="contact-section__right-container-text">
+          Contact us to select the coach and schedule your first personal
+          training at FitB!
+        </p>
+        <div class="contact-section__right-container-button-container">
+          <button class="contact-section__start-now-button">
+            <p class="contact-section__start-now-button-text">START NOW</p>
+          </button>
+          <a href="#" class="contact-section__contacts-now-button">CONTACTS</a>
         </div>
-        <div class="contact-section__right-container">
-          <p class="contact-section__right-container-text">
-            Contact us to select the coach and schedule your first personal
-            training at FitB!
-          </p>
-          <div class="contact-section__right-container-button-container">
-            <button class="contact-section__start-now-button">START NOW</button>
-            <a href="#" class="contact-section__contacts-now-button"
-              >CONTACTS</a
-            >
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer data-include="footer.partial.html"></footer>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <footer data-include="footer.partial.html"></footer>
+  <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+
 </html>
