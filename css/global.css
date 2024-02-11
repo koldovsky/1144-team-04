@@ -10,10 +10,6 @@
 }
 
 img {
-<<<<<<< HEAD
-=======
-
->>>>>>> 95eae7b2e103acf09b02834302675e5152f3cecb
     width: 100%;
 }
 
@@ -26,15 +22,9 @@ body {
 
     --text-color: #d6fb00;
     --background-color: #191919;
-<<<<<<< HEAD
     --background-color-alternate: #1f1f1f;
     --basic-text-color:#dcdcdc;
     --title-color:#fff;
-=======
-    --basic-text-color: #dcdcdc;
-    ;
-    --title-color: #fff;
->>>>>>> 95eae7b2e103acf09b02834302675e5152f3cecb
     --accent-color: #8f8f8f;
     --footer-email-color: #1e1e1e;
     --footer-font-size-s: font-size: 15px;
