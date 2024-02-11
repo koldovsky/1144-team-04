@@ -35,7 +35,7 @@
 }
 
 .personal-training__text {
-    color: var(--accent-color);
+    color: #8f8f8f;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -45,6 +45,7 @@
 }
 
 .button__explore {
+
     width: 204.52px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
