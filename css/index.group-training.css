@@ -1,12 +1,3 @@
-.group-training {
-    padding: 100px 24px 80px 24px;
-    color: var(--basic-text-color);
-    background-image: url("../img/our-classes-background.svg");
-    background-size: 130%;
-    background-position-x: -2rem;
-    background-repeat: no-repeat;
-}
-
 .group-training__title {
     text-align: center;
     font-weight: 700;
