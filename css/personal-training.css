@@ -1,5 +1,6 @@
 @import url(global.css);
-
+@import url(header-nav.css);
+@import url(footer.css);
 /* Header */
 
 .personal-training-header {
