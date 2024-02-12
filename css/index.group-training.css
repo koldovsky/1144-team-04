@@ -1,6 +1,11 @@
+.group-training {
+    display: flex;
+    flex-direction: column;
+}
 .group-training__title {
-    text-align: center;
+    text-align: right;
     font-weight: 700;
     font-size: 54px;
-    color: var(--title-color)
+    color: var(--title-color);
+    background-repeat: no-repeat;
 }
