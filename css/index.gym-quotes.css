@@ -1,0 +1,13 @@
+.gym-quotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.gym-quotes__carousel-slides {
+    font-size: 38px;
+    color: var(--title-color);
+    font-family: "Kanit", sans-serif;
+    text color: white;
+
+}
