@@ -3,4 +3,7 @@
     flex-direction: column;
 }
 
+img {
+    max-width: 250px;
+}
 /* to be continued... */
