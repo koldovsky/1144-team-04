@@ -1,28 +1,24 @@
-.personal-training{
+.personal-training {
     display: flex;
-    padding: 80px 0px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 24px;
+}
+
+.plank-exercise__image {
+    padding: 0px 0px 80px;
+
+}
+
+.personal-training__info {
     align-items: center;
 }
 
-.plank-exercise__image{
-  width: 535px;
-}
-
-.personal-training__info{
-    width: 635px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 50px;
-}
-
-.personal-training__title { 
+.personal-training__title {
     color: var(--title-color);
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 46px;
-    width: 279px;
 }
 
 .personal-training__subtitle {
@@ -30,32 +26,26 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     margin-top: 25px;
-    width: 456px;
-    
 }
 
 .personal-training__text {
-    color: #8f8f8f;
+    color: var(--accent-color);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
     margin-top: 25px;
     margin-bottom: 40px;
-    width: 452px;
 }
 
 .button__explore {
-
-    width: 204.52px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 15.4px;
-    border: 1px solid #fff ;
+    border: 1px solid #fff;
     color: var(--title-color);
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     text-align: center;
-   
 }
 
 .button__explore:hover {
@@ -63,3 +53,44 @@
     color: black;
 }
 
+@media (min-width: 768px) {
+    .personal-training {
+        justify-content: space-evenly;
+    }
+
+    .personal-training__info {
+        width: 402px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .plank-exercise__image {
+        width: 302px;
+        padding: 0px 0px 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .personal-training {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .plank-exercise__image {
+        width: 406px;
+    }
+
+    .personal-training__info {
+        width: 406px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .plank-exercise__image {
+        width: 535px;
+    }
+
+    .personal-training__info {
+        width: 535px;
+    }
+}
