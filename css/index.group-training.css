@@ -6,9 +6,10 @@
     background-position-x: -2rem;
     background-repeat: no-repeat;
 }
+
 .group-training__title {
     text-align: right;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 54px;
     color: var(--title-color)
 }
