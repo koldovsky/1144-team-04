@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 20px 0;
 }
-.gym-quotes__carousel-text-container {
+.gym-quotes__carousel-slide {
     font-size: 38px;
     color: var(--title-color);
     font-family: "Kanit", sans-serif;
