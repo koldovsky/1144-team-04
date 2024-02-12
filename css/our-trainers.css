@@ -1,0 +1,118 @@
+.trainers {
+    font-family: 'Poppins', sans-serif;
+    padding: 70px 24px 80px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trainers__background-wrapper {
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    position: absolute;
+    top: -335px; 
+    left: 90px;
+}
+
+.trainers__content {
+    z-index: 1;
+    position: relative;
+
+}
+
+img {
+    display: block;
+    height: auto;
+    aspect-ratio: 4.03 / 5;
+}
+
+.trainers__title {
+    font-size: 38px;
+    color: var(--title-color);
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+}
+
+.trainers__description {
+    color: var(--basic-text-color);
+    font-size: 19px;
+    padding: 20px 0;
+}
+
+.trainers__grid {
+    display: grid;
+    gap: 50px;
+}
+
+.trainer__name {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--title-color);
+    padding: 20px 0;
+}
+
+.trainer__role {
+    color: var(--basic-text-color);
+    font-size: 14px;
+    letter-spacing: 0.9px;
+}
+
+
+@media (min-width: 768px) {
+
+    .trainers__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .trainers { 
+        padding: 70px 32px 80px;
+    }
+
+    
+    .trainers__description {
+        padding: 16px 0 45px;
+    }
+
+    .trainers__title {
+        font-size: 46px;
+        letter-spacing: 1px;
+    }
+
+    .trainer__name {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .trainers__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .trainers__title {
+        font-size: 54px;
+    }
+
+    .trainers { 
+        padding: 70px 40px 80px;
+    }
+
+    .trainers__description {
+        padding: 15px 0 50px;
+    }
+
+    .trainer__name {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .trainers { 
+        padding: 70px 15px 80px;
+    }
+}
