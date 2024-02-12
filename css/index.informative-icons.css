@@ -1,11 +1,13 @@
 .info-section{
     display: flex;
-    text-align: left;
-    padding: 40px 0px;
+    padding: 40px 20px;
     justify-content: space-between;
    
 }
+.info-block{
+    width: 270px;
 
+}
 .info-block__icon{
     width: 50px;
 }
@@ -23,5 +25,24 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
-    width: 270px;
+    
 }
+
+@media (max-width: 992px) {
+    .info-section {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .info-block {
+        padding-right: 70px;
+        padding-bottom: 30px;
+        
+    }
+
+    .info-block__text{
+        width: 400px;
+    }
+
+}
+
