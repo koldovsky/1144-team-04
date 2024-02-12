@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* general properties would be here -> */
 
 * {
@@ -22,14 +23,9 @@ body {
 
     --text-color: #d6fb00;
     --background-color: #191919;
-<<<<<<< HEAD
-    --basic-text-color: #dcdcdc;
-    --title-color: #fff;
-=======
     --background-color-alternate: #1f1f1f;
     --basic-text-color:#dcdcdc;
     --title-color:#fff;
->>>>>>> ab03d3d33419aedb33d12f6b6d68d01430dce2c5
     --accent-color: #8f8f8f;
     --footer-email-color: #1e1e1e;
     --footer-font-size-s: font-size: 15px;
