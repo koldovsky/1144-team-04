@@ -1,0 +1,20 @@
+.group-training {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group-training__title {
+    text-align: right;
+    font-weight: 700;
+    font-size: 54px;
+    color: var(--title-color);
+    background-repeat: no-repeat;
+}
+
+.group-training__image {
+    width: 327px;
+    height: 423px;
+}

@@ -5,6 +5,10 @@
 @import "index.our-classes.css";
 @import "header-nav.css";
 @import "index.header-hero.css";
-@import "our-trainers.css";
+@import "index.our-trainers.css";
 @import "footer.css";
-@import "index.latest-articles.css"
+@import "index.contacts.css";
+@import "index.latest-articles.css";
+@import "index.gallery.css";
+@import "index.gym-quotes.css";
+@import "index.group-training.css"
