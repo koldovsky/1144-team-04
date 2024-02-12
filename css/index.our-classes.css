@@ -132,3 +132,14 @@
 .all-button_icon {
     color: var(--background-color);
 }
+
+/* Animations */
+
+.our-classes__all-classes-button {
+    transition: 0.25s;
+}
+
+.our-classes__all-classes-button:hover {
+    background-color: var(--title-color);
+    transition: 0.3s;
+}

@@ -502,7 +502,24 @@
     }
 }
 
+/* Animations to buttons */
 
+.contact-section__start-now-button, .right-container__join-now-button {
+    cursor: pointer;
+    transition: 0.25s;
+}
 
+.contact-section__start-now-button:hover, .right-container__join-now-button:hover {
+    background-color: var(--title-color);
+    transition: 0.3s;
+}
 
+.contact-section__contacts-now-button {
+    transition: 0.25s;
+}
 
+.contact-section__contacts-now-button:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transition: 0.3s;
+}
