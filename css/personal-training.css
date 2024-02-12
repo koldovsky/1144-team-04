@@ -28,10 +28,11 @@
 }
 
 @media (min-width: 768px) {
-    .left-container__title { 
+    .left-container__title {
         font-size: 46px;
         line-height: 50.6px;
     }
+
     .personal-training-header__left-container {
         padding-left: 40px;
         padding-right: 40px;
@@ -39,7 +40,7 @@
 }
 
 @media (min-width: 992px) {
-    .left-container__title { 
+    .left-container__title {
         font-size: 54px;
         line-height: 59.4px;
     }
@@ -60,14 +61,15 @@
     padding-right: 20px;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .personal-training-header__right-container {
         margin-top: 40px;
         padding-left: 40px;
         padding-right: 40px;
     }
 }
-@media (min-width: 1180px) { 
+
+@media (min-width: 1180px) {
     .personal-training-header__right-container {
         margin-top: 0px;
     }
@@ -95,7 +97,7 @@
     color: var(--background-color);
 }
 
-.right-container__join-now-button-text{
+.right-container__join-now-button-text {
     color: var(--background-color);
     font-size: 15.4px;
     font-weight: 700;
@@ -114,7 +116,7 @@
     flex-direction: column;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .personal-training-article {
         flex-direction: row;
     }
@@ -143,12 +145,12 @@
     line-height: 39.9px;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .personal-training-article__title {
         font-size: 33px;
         line-height: 43.89px;
     }
-    
+
     .personal-training-article__image {
         max-width: 570px;
     }
@@ -158,7 +160,7 @@
     }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .personal-training-article__title {
         font-size: 36px;
         line-height: 47.88px;
@@ -187,3 +189,320 @@
     font-family: 'Poppins';
     font-weight: 400;
 }
+
+/* Benefits */
+
+.training-benefits {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.training-benefits__title {
+    font-size: 38px;
+    color: var(--title-color);
+    font-weight: 700;
+    text-align: center;
+    line-height: 41.8px;
+}
+
+@media (min-width: 768px) {
+    .training-benefits__title {
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 992px) {
+    .training-benefits__title {
+        font-size: 54px;
+    }
+}
+
+
+.training-benefits__subtitle {
+    margin-top: 25px;
+    text-align: center;
+    color: var(--basic-text-color);
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29.64px;
+}
+
+.selected-text {
+    color: var(--text-color);
+}
+
+.training-benefits__items {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .training-benefits__items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .training-benefits__items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.training-benefits__item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.training-benefits__item-icon {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.training-benefits__item-title {
+    margin-top: 20px;
+    font-size: 22px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.training-benefits__item-subtitle {
+    margin-top: 20px;
+    color: var(--accent-color);
+    font-size: 17px;
+    font-family: 'Poppins';
+    line-height: 25.5px;
+    font-weight: 400;
+}
+
+/* Carousel */
+
+.quote-carousel {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote-carousel__button {
+    background: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.quote-carousel__button-left-icon {
+    transform: rotate(180deg);
+    fill: var(--basic-text-color);
+    width: 30px;
+}
+
+.quote-carousel__carousel-track {
+    list-style: none;
+}
+
+.quote-carousel__carousel-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.carousel-slide__article {
+    background-color: var(--background-color-alternate);
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 43px;
+    padding-right: 43px;
+    
+}
+
+.carousel-slide__article-icon {
+    width: 50px;
+    height: 50px;
+    color: var(--text-color);
+}
+
+.carousel-slide__article-name-text {
+    color: var(--text-color);
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .carousel-slide__article-name-text {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-slide__article{
+        width: 50%;
+    }
+
+    .carousel-slide__image-container {
+        height: auto;
+        width: 50%;
+    }
+    
+    .carousel-slide__image {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.carousel-slide__article-text {
+    margin-top: 20px;
+    color: var(--accent-color);
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.carousel-slide__article-date-text {
+    margin-top: 20px;
+    color: var(--basic-text-color);
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.carousel-slide__image {
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .quote-carousel__carousel-slide {
+        flex-direction: row;
+    }
+}
+
+.quote-carousel__button-right-icon {
+    fill: var(--basic-text-color);
+    width: 30px;
+}
+
+/* Contact */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.contact-section__left-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-section__left-container-title {
+    color: var(--title-color);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 39.9px;
+}
+
+@media (min-width: 768px) {
+    .contact-section__left-container-title {
+        font-size: 33px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-section__left-container-title {
+        font-size: 36px;
+    }
+}
+
+.contact-section__left-container-subtitle {
+    margin-top: 25px;
+    color: var(--basic-text-color);
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.contact-section__right-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-section__right-container-text {
+    margin-top: 80px;
+    color: var(--accent-color);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.contact-section__right-container-button-container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section__start-now-button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--text-color);
+    border: none;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.contact-section__start-now-button-text {
+    margin: auto;
+    color: var(--background-color);
+    font-family: 'Poppins';
+    font-size: 15.4px;
+    font-weight: 700;
+}
+
+.contact-section__contacts-now-button {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 2px solid;
+    border-color: var(--text-color);
+    font-family: 'Poppins';
+    font-size: 15.4px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .contact-section { 
+        flex-direction: row;
+    }
+
+    .contact-section__right-container-button-container {
+        flex-direction: row;
+    }
+
+    .contact-section__right-container, .contact-section__left-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-section__right-container {
+        margin-top: 0px;
+    }
+
+    .contact-section__right-container-text {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+

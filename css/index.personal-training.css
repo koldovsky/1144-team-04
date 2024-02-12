@@ -1,22 +1,64 @@
 .personal-training{
-  
+    display: flex;
+    padding: 80px 0px;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.plank-exercise__image{
+  width: 535px;
+}
+
+.personal-training__info{
+    width: 635px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
 .personal-training__title { 
-  
     color: var(--title-color);
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    font-style: normal;
     font-size: 46px;
+    width: 279px;
 }
+
 .personal-training__subtitle {
     color: var(--basic-text-color);
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
+    font-weight: 500;
+    margin-top: 25px;
+    width: 456px;
+    
 }
+
 .personal-training__text {
-    color: var(--accent-color);
+    color: #8f8f8f;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 452px;
+}
+
+.button__explore {
+
+    width: 204.52px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15.4px;
+    border: 1px solid #fff ;
+    color: var(--title-color);
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+   
+}
+
+.button__explore:hover {
+    background-color: var(--title-color);
+    color: black;
 }
