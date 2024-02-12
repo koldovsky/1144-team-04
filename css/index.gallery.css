@@ -1,0 +1,6 @@
+.gallery-carousel__photo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* to be continued... */
