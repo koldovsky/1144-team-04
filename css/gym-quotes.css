@@ -5,8 +5,8 @@
     padding: 20px 0;
 }
 .gym-quotes__carousel-text-container {
-    color: var(--accent-color);
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 38px;
+    color: var(--title-color);
+    font-family: "Kanit", sans-serif;
+
 }
