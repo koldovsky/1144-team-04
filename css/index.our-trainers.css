@@ -22,7 +22,7 @@
   position: relative;
 }
 
-img {
+.trainers img {
   display: block;
   height: auto;
   aspect-ratio: 4.03 / 5;
