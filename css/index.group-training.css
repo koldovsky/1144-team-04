@@ -27,7 +27,7 @@
 
 .group-training__subparagraph-main {
     color: var(--accent-color);
-    text-align: justify;
+    text-align: left;
     font-family: 'Popins', sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -39,7 +39,7 @@
 
 .group-training__list {
     color: var(--basic-text-color);
-    text-align: justify;
+    text-align: left;
     font-family: 'Popins', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -51,7 +51,7 @@
 
 .group-training__subparagraph-secondary {
     color: var(--accent-color);
-    text-align: justify;
+    text-align: left;
     font-family: 'Popins', sans-serif;
     font-weight: 400;
     font-size: 17px;
