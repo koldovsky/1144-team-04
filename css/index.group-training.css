@@ -7,11 +7,36 @@
 }
 
 .group-training__title {
-    text-align: left;
-    font-weight: 700;
-    font-size: 54px;
     color: var(--title-color);
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
     background-repeat: no-repeat;
+}
+
+.group-training__paragraph{
+    color: var(--basic-text-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.group-training_subparagraph{
+    color: var(--accent-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.group-training__list{
+    color: var(--basic-text-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .group-training__image {
