@@ -1,14 +1,10 @@
 .footer {
-    padding: 40px 23px 60px 23px;
+    padding: 40px 0 60px 0;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-align: center;
     color: var(--accent-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: content-box;
 }
 
 footer a:visited,
@@ -44,6 +40,7 @@ footer a:hover {
 
 .social-logo {
     margin: 0 7px 0 7px;
+    border: 1px solid var(--text-color);
 }
 
 .footer-content__column {
@@ -57,6 +54,12 @@ footer a:hover {
     font-size: 19px;
 }
 
+.outer_bDW,
+.border_2yy,
+.logo_2gS {
+    color: var(--text-color);
+}
+
 .filling {
     margin: 17px 0px 0px 0px;
 }
@@ -68,6 +71,7 @@ footer a:hover {
 
 .column__email-field {
     background: var(--footer-email-color);
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 60px;
     margin: 0 0 15px 0;
@@ -95,8 +99,14 @@ footer a:hover {
     color: var(--accent-color);
 }
 
-@media (min-width: 790px) {
-    .footer {
-        justify-content: left;
+/* @media (min-width: 790px) { 
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-}
+
+    .footer-content__column {
+        border: 1px solid red;
+    }
+}/*

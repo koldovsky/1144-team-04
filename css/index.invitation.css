@@ -1,0 +1,36 @@
+.invitation__content {
+    margin: 70px 0;
+    padding: 39px;
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #191919;
+    text-align: center;
+    background: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    margin: 10px;
+    height: 70px;
+    background-color: #191919;
+}
