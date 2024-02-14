@@ -5,7 +5,7 @@
     font-weight: 700;
     font-size: 38px;
     background-repeat: no-repeat;
-}
+    display: inline;
 
 .group-training__paragraph{
     color: var(--basic-text-color);
