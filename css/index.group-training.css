@@ -34,6 +34,7 @@
     margin-top: 25px;
     letter-spacing: 0.85px;
     line-height: 25.5px;
+    font-stretch: 100%;
 }
 
 .group-training__list {
@@ -43,7 +44,9 @@
     font-weight: 500;
     font-size: 14px;
     margin-top: 20px;
-    line-height: 25.5px;
+    letter-spacing: 0.7px;
+    line-height: 20.02px;
+    font-stretch: 100%;
 }
 
 .group-training__subparagraph-second {
@@ -55,6 +58,7 @@
     margin-top: 20px;
     letter-spacing: 0.85px;
     line-height: 25.5px;
+    font-stretch: 100%;
 }
 
 .group-training__image {
