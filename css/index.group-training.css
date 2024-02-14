@@ -1,6 +1,5 @@
 .group-training {
-    padding: 0px, 24px, 0px, 24px;
-}
+    padding: 0px 24px 0px 24px;
 
 .group-training__title {
     color: var(--title-color);
