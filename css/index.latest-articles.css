@@ -1,4 +1,17 @@
 .articles__tittle {
     text-align: center;
     margin: auto;
+    font-family: sans-serif;
+}
+.articles__strong {
+    text-align: left;
+}
+.articles__simulator {
+    text-align: center;
+}
+.articles__coach {
+    text-align: right;
+}
+.articles__list {
+    display: inline-block;
 }
