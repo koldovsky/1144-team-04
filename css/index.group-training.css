@@ -1,3 +1,7 @@
+.group-training {
+    padding: 0px, 24px, 0px, 24px;
+}
+
 .group-training__title {
     color: var(--title-color);
     text-align: left;
@@ -6,8 +10,9 @@
     font-size: 38px;
     background-repeat: no-repeat;
     display: inline;
+}
 
-.group-training__paragraph{
+.group-training__paragraph {
     color: var(--basic-text-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
@@ -15,7 +20,7 @@
     font-size: 19px;
 }
 
-.group-training__subparagraph{
+.group-training__subparagraph {
     color: var(--accent-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
@@ -23,7 +28,7 @@
     font-size: 17px;
 }
 
-.group-training__list{
+.group-training__list {
     color: var(--basic-text-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
