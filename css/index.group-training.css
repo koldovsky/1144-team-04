@@ -2,10 +2,6 @@
     padding: 0px 24px 0px 24px;
 }
 
-.group-training__text {
-    padding: 0px 20px 0px 20px;
-}
-
 .group-training__title {
     color: var(--title-color);
     text-align: left;
