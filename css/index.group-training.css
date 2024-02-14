@@ -10,6 +10,8 @@
     font-size: 38px;
     background-repeat: no-repeat;
     display: inline;
+    letter-spacing: 0.76px;
+    line-height: 41.8px;
 }
 
 .group-training__paragraph {
