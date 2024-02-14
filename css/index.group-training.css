@@ -1,5 +1,10 @@
 .group-training {
     padding: 0px 24px 0px 24px;
+}
+
+.group-training__text {
+    padding: 0px 20px 0px 20px;
+}
 
 .group-training__title {
     color: var(--title-color);
@@ -17,14 +22,16 @@
     font-family: 'Popins', sans-serif;
     font-weight: 500;
     font-size: 19px;
+    margin-top: 25px;
 }
 
-.group-training__subparagraph {
+.group-training__subparagraph-first {
     color: var(--accent-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
     font-weight: 400;
     font-size: 17px;
+    margin-top: 25px;
 }
 
 .group-training__list {
@@ -33,6 +40,16 @@
     font-family: 'Popins', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    margin-top: 20px;
+}
+
+.group-training__subparagraph-second {
+    color: var(--accent-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 20px;
 }
 
 .group-training__image {
