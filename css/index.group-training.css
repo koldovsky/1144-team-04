@@ -23,7 +23,7 @@
     font-size: 19px;
 }
 
-.group-training_subparagraph{
+.group-training__subparagraph{
     color: var(--accent-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
