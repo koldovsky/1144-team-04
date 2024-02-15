@@ -99,7 +99,7 @@ footer a:hover {
     color: var(--accent-color);
 }
 
-/* @media (min-width: 790px) { 
+/*@media (min-width: 790px) {
     .footer-content {
         display: flex;
         flex-direction: row;
@@ -109,4 +109,4 @@ footer a:hover {
     .footer-content__column {
         border: 1px solid red;
     }
-}/*
+}*/
