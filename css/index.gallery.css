@@ -10,7 +10,7 @@
   aspect-ratio: 272 / 257;
 }
 
-li {
+.gallery-carousel li {
   list-style-type: none;
 }
 
