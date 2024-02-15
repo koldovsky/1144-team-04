@@ -1,20 +1,21 @@
 .trainers {
-  font-family: "Poppins", sans-serif;
-  padding: 70px 24px 80px;
+  padding: 70px 0 80px;
   font-weight: 500;
   text-align: center;
   position: relative;
-  max-width: 1200px;
   margin: auto;
+  background-image: url(../img/trainers-background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
 }
 
 .trainers__background-wrapper {
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 100%;
   opacity: 0.2;
   position: absolute;
-  top: -335px;
-  left: 90px;
+  top: 40%;
+  left: 50%;
 }
 
 .trainers__content {
@@ -67,7 +68,7 @@
   }
 
   .trainers {
-    padding: 70px 32px 80px;
+    padding: 70px 0 80px;
   }
 
   .trainers__description {
@@ -94,7 +95,7 @@
   }
 
   .trainers {
-    padding: 70px 40px 80px;
+    padding: 70px 0 80px;
   }
 
   .trainers__description {
@@ -108,6 +109,6 @@
 
 @media (min-width: 1280px) {
   .trainers {
-    padding: 70px 15px 80px;
+    padding: 70px 0 80px;
   }
 }
