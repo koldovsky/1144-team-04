@@ -1,0 +1,41 @@
+.pricing-plans {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.pricing-plans__title {
+    font-size: 38px;
+    font-family: "Kanit", sans-serif;
+    margin: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--title-color)
+}
+.pricing-plans__paragraph {
+    font-size: 19px;
+    padding: 20px 0;
+    color: var(--basic-text-color);
+}
+.plan {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    margin: 0 auto 3rem auto;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(49, 49, 49, 0.466);
+}
+.plan .name {
+    font-size: 22px;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #8f8f8f;
+}
+.plan .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: left;
+  }
