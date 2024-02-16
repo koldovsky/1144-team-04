@@ -1,18 +1,73 @@
 .articles__tittle {
-    text-align: center;
-    margin: auto;
+    text-align: left;
+    margin: 20px;
     font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    color: var(--title-color);
 }
+
 .articles__strong {
     text-align: left;
 }
+
 .articles__simulator {
-    text-align: center;
-}
-.articles__coach {
-    text-align: right;
-}
-.articles__list {
-    display: inline-block;
+    text-align: left;
 }
 
+.articles__coach {
+    text-align: left;
+}
+
+.articles__list {
+    display: flex;
+    gap: 25px;
+}
+
+.picture__class {
+    display: flex;
+    width: 320px;
+    margin: 18px;
+}
+
+.articles__post {
+    font-weight: 500;
+    margin-top: 15px;
+    font-family: sans-serif;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    margin-right: 18px;
+    margin-top: 5px;
+    color: var(--title-color);
+}
+
+.articles__content {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 18px;
+    padding-top: 20px;
+}
+
+.buttom__class {
+    font-weight: 500;
+    font-size: 15.4px;
+    text-decoration: none;
+    margin: 18px;
+    color: var(--title-color);
+}
+
+.articles__name {
+    color: var(--text-color);
+    margin: 18px;
+}
+
+.buttom__class:hover {
+    color: var(--accent-color);
+}
+
+.buttom__class:active {
+    color: var(--footer-email-color);
+    padding-top: 20px;
+}
