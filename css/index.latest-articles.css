@@ -1,6 +1,6 @@
 .articles__tittle {
     text-align: left;
-    margin: auto;
+    margin: 20px;
     font-family: sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -21,19 +21,23 @@
 .picture__class {
     display: inline-block;
     width: 320px;
+    margin: 18px;
 }
 .articles__post {
     font-weight: 500;
     margin-top: 15px;
     font-family: sans-serif;
+    margin: 18px;
 }
 .articles__content {
     font-weight: 400;
     font-size: 17px;
     font-family: sans-serif;
+    margin: 18px;
 }
 .buttom__class {
     font-weight: 500;
     font-size: 15.4px;
     text-decoration: none;
+    margin: 18px;
 }
