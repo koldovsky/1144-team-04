@@ -34,7 +34,7 @@ body {
 
 @media (min-width: 1280px) {
     body {
-      padding: 0 15px;
+        padding: 0 15px;
     }
 }
 
@@ -42,13 +42,13 @@ body {
     --text-color: #d6fb00;
     --background-color: #191919;
     --background-color-alternate: #1f1f1f;
-    --basic-text-color:#dcdcdc;
-    --title-color:#ffffff;
+    --basic-text-color: #dcdcdc;
+    --title-color: #ffffff;
     --accent-color: #8f8f8f;
     --footer-email-color: #1e1e1e;
     --suggestion-font-size-s: font-size: 15px;
     --suggestion-font-size-m: font-size: 17px;
-    --suggestion-font-size-l: font-size: 38px; 
+    --suggestion-font-size-l: font-size: 38px;
 
     --footer-font-size-s: font-size: 15px;
     --footer-font-sizer-m: font-size: 16px;
@@ -59,13 +59,19 @@ body {
     background-color: var(--background-color);
 
 }
-.articles__tittle { 
+
+.articles__tittle {
     color: white;
 }
+
 .articles__name {
     color: yellow;
 }
+
 .buttom__class {
     color: white;
+}
 
+.buttom__class:hover {
+    color: grey;
 }
