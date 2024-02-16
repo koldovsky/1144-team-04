@@ -38,6 +38,7 @@
     margin-bottom: 18px;
     margin-right: 18px;
     margin-top: 5px;
+    color: var(--title-color);
 }
 
 .articles__content {
