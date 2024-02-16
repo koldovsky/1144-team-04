@@ -59,3 +59,9 @@ body {
     background-color: var(--background-color);
 
 }
+.articles__tittle { 
+    color: white;
+}
+.articles__name {
+    color: yellow;
+}
