@@ -39,3 +39,7 @@
     margin-bottom: 1rem;
     text-align: left;
   }
+  .price-and-period {
+    display: flex;
+    align-items: center;
+}
