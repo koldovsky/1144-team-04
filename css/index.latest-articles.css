@@ -53,7 +53,8 @@
 }
 
 .articles__name {
-    color var(--text-color) margin: 18px;
+    color var(--text-color);
+    margin: 18px;
 }
 
 .buttom__class:hover {
