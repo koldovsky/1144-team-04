@@ -9,7 +9,7 @@
 }
 
 .articles__strong {
-    text-align: left;
+    text-align: center;
 }
 
 .articles__simulator {
@@ -17,7 +17,7 @@
 }
 
 .articles__coach {
-    text-align: right;
+    text-align: center;
 }
 
 .articles__list {
