@@ -58,9 +58,9 @@
 }
 
 .buttom__class:hover {
-    color var(--accent-color);
+    color: var(--accent-color);
 }
 
 .buttom__class:active {
-    color var(--footer-email-color);
+    color: var(--footer-email-color);
 }
