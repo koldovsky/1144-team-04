@@ -38,8 +38,35 @@
     color: var(--text-color);
     margin-bottom: 1rem;
     text-align: left;
-  }
-  .price-and-period {
+}
+.plan .period-of-time {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--basic-text-color);
+    margin-bottom: 1rem;
+}
+.price-and-period {
     display: flex;
     align-items: center;
+}
+.plan .description {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+    color: #8f8f8f;
+}
+.plan li {
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+    color: #8f8f8f;
+    text-align: left;
+}
+.select-plan {
+    background-color: var(--text-color);
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+    padding: 0px 0px 0px 32px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
