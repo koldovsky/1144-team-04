@@ -9,15 +9,15 @@
 }
 
 .articles__strong {
-    text-align: center;
+    text-align: left;
 }
 
 .articles__simulator {
-    text-align: center;
+    text-align: left;
 }
 
 .articles__coach {
-    text-align: center;
+    text-align: left;
 }
 
 .articles__list {
@@ -47,6 +47,7 @@
     font-size: 17px;
     font-family: sans-serif;
     margin: 18px;
+    padding-top: 20px;
 }
 
 .buttom__class {
@@ -68,4 +69,5 @@
 
 .buttom__class:active {
     color: var(--footer-email-color);
+    padding-top: 20px;
 }
