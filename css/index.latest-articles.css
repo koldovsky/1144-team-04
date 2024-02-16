@@ -21,11 +21,11 @@
 }
 
 .articles__list {
-    display: inline-block;
+    display: flex;
 }
 
 .picture__class {
-    display: inline-block;
+    display: flex;
     width: 320px;
     margin: 18px;
 }
