@@ -22,6 +22,7 @@
 
 .articles__list {
     display: flex;
+    gap: 25px;
 }
 
 .picture__class {
