@@ -75,3 +75,6 @@ body {
 .buttom__class:hover {
     color: grey;
 }
+.buttom__class:active {
+color: black;
+}
