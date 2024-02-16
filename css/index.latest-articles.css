@@ -47,7 +47,7 @@
     font-size: 17px;
     font-family: sans-serif;
     margin: 18px;
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .buttom__class {
@@ -69,5 +69,5 @@
 
 .buttom__class:active {
     color: var(--footer-email-color);
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
