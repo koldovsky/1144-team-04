@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* general properties would be here -> */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 img {
@@ -18,6 +16,10 @@ body {
     padding: 0 24px;
     max-width: 1200px;
     margin: auto;
+    
+    &.fixed {
+        position: fixed;
+    }
 }
 
 @media (min-width: 768px) {
@@ -42,6 +44,7 @@ body {
     --text-color: #d6fb00;
     --background-color: #191919;
     --background-color-alternate: #1f1f1f;
+    --background-color-dark: #070707;
     --basic-text-color:#dcdcdc;
     --title-color:#ffffff;
     --accent-color: #8f8f8f;
@@ -57,5 +60,8 @@ body {
     font-family: "Kanit", sans-serif;
     scroll-behavior: smooth;
     background-color: var(--background-color);
-
+    
+    &.responsive {
+        background-color: var(--background-color-dark);
+      }
 }
