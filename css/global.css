@@ -59,22 +59,3 @@ body {
     background-color: var(--background-color);
 
 }
-
-.articles__tittle {
-    color: white;
-}
-
-.articles__name {
-    color: yellow;
-}
-
-.buttom__class {
-    color: white;
-}
-
-.buttom__class:hover {
-    color: grey;
-}
-.buttom__class:active {
-color: black;
-}
