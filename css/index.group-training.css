@@ -60,8 +60,7 @@
 }
 
 .group-training__image {
-    width: 245px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
-    padding-right: 24px;
 }
