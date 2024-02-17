@@ -1,5 +1,5 @@
 .group-training {
-    margin: 80px 24px 80px 24px;
+    margin: 80px 0px 80px 24px;
 }
 
 .group-training__title {
@@ -51,12 +51,16 @@
     font-stretch: 100%;
 }
 
-.group-training__image {
-    width: 272px;
-    height: 351px;
-    margin-top: 100px;
+.group-training__item {
+    margin-bottom: 16px;
 }
 
 .group-training__item::marker {
     color: var(--text-color)
+}
+
+.group-training__image {
+    width: 272px;
+    height: 351px;
+    margin-top: 100px;
 }
