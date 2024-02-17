@@ -37,10 +37,6 @@
     font-stretch: 100%;
 }
 
-.group-training__subparagraph--secondary {
-    margin-top: 20px;
-}
-
 .group-training__list {
     color: var(--basic-text-color);
     text-align: left;
