@@ -64,8 +64,7 @@
 
 .class-item__image-container {
     width: 100%;
-    height: 50vh;
-
+    height: 350px;
 }
 
 .class-item__image {
@@ -90,8 +89,19 @@
 }
 
 .class-item__title-button-icon {
-    color: var(--title-color);
-    font-size: 24px;
+    position: relative;
+    &::after, &::before {
+        content: "";
+        position: absolute;
+        background: var(--basic-text-color);
+        width: 15px;
+        height: 2px;
+        top: 15px;
+        left: -20px;
+    }
+    &::before {
+        transform: rotate(90deg);
+    }
 }
 
 

@@ -1,11 +1,13 @@
 .contacts {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  max-width: 1200px;
-  margin: auto;
   display: grid;
   gap: 30px;
-  padding: 70px 24px 25px;
+  padding: 70px 0 25px;
+
+  & * {
+    display: block;
+  }
 }
 
 .contacts__title {
@@ -30,16 +32,21 @@
   letter-spacing: 0.7px;
 }
 
-.contacts__button {
+.contacts__open-button {
   width: 251px;
   height: 51px;
   border: 2px;
-  background-color: #d6fb00;
+  background-color: var(--text-color);
   font-size: 15.4px;
-  color: #191919;
+  color: var(--background-color);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-top: 35px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--title-color);
+  }
 }
 
 .contacts__kind-title {
@@ -56,11 +63,29 @@
   letter-spacing: 0.7px;
 }
 
+.contacts__form-container {
+  display: none;
+  z-index: 9999;
+  padding: 90px 24px;
+  position: fixed;
+  top: 10%;
+  right: 10%;
+
+  &.responsive {
+    display: block;
+    background-color: var(--background-color);
+  }
+}
+
+.contacts__close-button-container {
+  position: absolute;
+}
+
 @media (min-width: 768px) {
   .contacts {
     grid-template-columns: 3fr 2fr;
     gap: 153px;
-    padding: 70px 32px 25px;
+    padding: 70px 0 25px;
   }
 
   .contacts__title {
@@ -76,7 +101,7 @@
   .contacts {
     grid-template-columns: 3fr 2fr;
     gap: 192px;
-    padding: 70px 40px 25px;
+    padding: 70px 0 25px;
   }
 
   .contacts__title {
@@ -90,6 +115,6 @@
 
 @media (min-width: 1280px) {
   .contacts {
-    padding: 70px 15px 25px;
+    padding: 70px 0 25px;
   }
 }
