@@ -52,7 +52,7 @@
 }
 
 .group-training__item {
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
 
 .group-training__item::marker {
