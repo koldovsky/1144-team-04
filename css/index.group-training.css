@@ -37,6 +37,10 @@
     font-stretch: 100%;
 }
 
+.group-training__subparagraph--secondary {
+    margin-top: 20px;
+}
+
 .group-training__list {
     color: var(--basic-text-color);
     text-align: left;
@@ -49,16 +53,12 @@
     font-stretch: 100%;
 }
 
-.group-training__subparagraph--secondary {
-    margin-top: 20px;
-}
-
 .group-training__image {
     width: 272px;
     height: 351px;
     margin-top: 100px;
 }
 
-.group-training_item::marker {
+.group-training__item::marker {
     color: var(--text-color)
 }
