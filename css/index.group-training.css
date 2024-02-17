@@ -1,3 +1,7 @@
+.group-training {
+    margin: 80px 24px 80px 24px;
+}
+
 .group-training__title {
     color: var(--title-color);
     text-align: left;
@@ -40,6 +44,8 @@
     font-weight: 500;
     font-size: 14px;
     margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 16px;
     letter-spacing: 0.7px;
     line-height: 20.02px;
     font-stretch: 100%;
