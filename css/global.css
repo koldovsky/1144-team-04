@@ -45,6 +45,7 @@ body {
     --background-color: #191919;
     --background-color-alternate: #1f1f1f;
     --background-color-dark: #070707;
+    --background-07-transparent: rgba(0,0,0,.7);
     --basic-text-color: #dcdcdc;
     --title-color: #ffffff;
     --accent-color: #8f8f8f;
@@ -62,6 +63,6 @@ body {
     background-color: var(--background-color);
     
     &.responsive {
-        background-color: var(--background-color-dark);
+        background-color: var(----background-color-dark);
       }
-}
+}   

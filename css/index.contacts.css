@@ -74,6 +74,18 @@
   &.responsive {
     display: block;
     background-color: var(--background-color);
+    background-attachment: scroll;
+    overflow-y: visible;
+  }
+}
+
+.contacts__pop-up-wrapper {
+  display: none;
+
+  &.responsive {
+    display: block;
+    height: 100vh;
+    overflow-y: scroll;
   }
 }
 
