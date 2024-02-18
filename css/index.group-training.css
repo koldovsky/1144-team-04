@@ -1,5 +1,7 @@
 .group-training {
-    margin: 80px 24px 80px 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 24px 80px 24px;
 }
 
 .group-training__title {
@@ -25,7 +27,7 @@
     line-height: 29.64px;
 }
 
-.group-training__subparagraph-main {
+.group-training__subparagraph {
     color: var(--accent-color);
     text-align: left;
     font-family: 'Popins', sans-serif;
@@ -44,24 +46,83 @@
     font-weight: 500;
     font-size: 14px;
     margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 16px;
     letter-spacing: 0.7px;
     line-height: 20.02px;
     font-stretch: 100%;
 }
 
-.group-training__subparagraph-secondary {
-    color: var(--accent-color);
-    text-align: left;
-    font-family: 'Popins', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    margin-top: 20px;
-    letter-spacing: 0.85px;
-    line-height: 25.5px;
-    font-stretch: 100%;
+.group-training__item {
+    margin-bottom: 16px !important;
+}
+
+.group-training__item::marker {
+    color: var(--text-color)
 }
 
 .group-training__image {
-    width: 327px;
-    height: 423px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+    .group-training {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .group-training__text {
+        width: 302px;
+    }
+
+    .group-training__title {
+        font-size: 46px;
+    }
+
+    .group-training__image {
+        width: 302px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .group-training {
+        flex-direction: row;
+        align-items: start;
+        gap: 100px;
+    }
+
+    .group-training__text {
+        width: 406px;
+    }
+
+    .group-training__title {
+        font-size: 54px;
+    }
+
+    .group-training__image {
+        width: 406px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .group-training {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .group-training__text {
+        font-size: 54px;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 535px;
+    }
+
+    .group-training__image {
+        width: 535px;
+    }
 }
