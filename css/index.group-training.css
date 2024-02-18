@@ -124,26 +124,3 @@
         width: 535px;
     }
 }
-
-@media (min-width: 820px) and (max-width: 991px) {
-    .group-training {
-        flex-direction: row;
-        gap: 100px;
-        align-items: center;
-    }
-
-    .group-training__text {
-        width: 333px;
-    }
-
-    .group-training__title {
-        font-size: 54px;
-        text-align: center;
-    }
-
-    .group-training__image {
-        width: 100%;
-        max-width: 333px;
-        align-self: self-start;
-    }
-}
