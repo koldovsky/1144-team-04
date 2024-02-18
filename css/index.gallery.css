@@ -33,3 +33,16 @@
     opacity: 0.8;
 }
 
+@media (min-width: 768px) {
+  .gallery-carousel__photo-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery-carousel__photo-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
