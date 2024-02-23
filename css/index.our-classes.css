@@ -121,9 +121,10 @@
     }
   }
   .class-item__article-container {
-    max-height: 0;
-    margin-top: 0;
-    transition: all 0.3s;
+    margin-top: 20px;
+    max-height: 200px;
+
+    transition: all 0.45s;
   }
 }
 
@@ -149,10 +150,10 @@
 }
 
 .class-item__article-container {
-  margin-top: 20px;
-  max-height: 200px;
   overflow: hidden;
-  transition: all 0.45s;
+  max-height: 0;
+  margin-top: 0;
+  transition: all 0.3s;
 }
 
 .all-button_text {
