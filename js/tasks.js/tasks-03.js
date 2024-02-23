@@ -25,22 +25,6 @@ function giveMeFive(obj) {
   return arr;
 }
 
-// Understanding closures - the basics
-// https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
-
-function buildFun(n) {
-  let res = [];
-
-  for (let i = 0; i < n; i++) {
-    (function (index) {
-      res.push(function () {
-        return index;
-      });
-    })(i);
-  }
-  return res;
-}
-
 // Fun with ES6 Classes #2 - Animals and Inheritance
 // https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
 
