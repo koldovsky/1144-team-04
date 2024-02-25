@@ -46,7 +46,6 @@
 }
 
 .header__nav-list {
-	padding-right: 70px;
 	display: flex;
 	gap: 25px;
 	list-style: none;
