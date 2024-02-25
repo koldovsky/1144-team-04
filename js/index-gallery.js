@@ -1,9 +1,9 @@
 const slides = [
-  '<div class="gallery-carousel__slide"><img src="../img/woman-does-sport.webp" alt="woman-does-sport" /></div>',
-  '<div class="gallery-carousel__slide"><img src="../img/three-people-are-talkinkg-at-gym.webp" alt="three-people-are-talkinkg-at-gym"/></div>',
-  '<div class="gallery-carousel__slide"><img src="../img/coach-helps-woman-doing-approach.webp" alt="coach-helps-woman-doing-approach"/></div>',
-  '<div class="gallery-carousel__slide"><img src="../img/running-woman.webp" alt="running-woman" /></div>',
-  '<div class="gallery-carousel__slide"><img src="../img/the-gym.webp" alt="the-gym" /></div>',
+  '<div class="gallery-carousel__slide"><img src="img/woman-does-sport.webp" alt="woman-does-sport" /></div>',
+  '<div class="gallery-carousel__slide"><img src="img/three-people-are-talkinkg-at-gym.webp" alt="three-people-are-talkinkg-at-gym"/></div>',
+  '<div class="gallery-carousel__slide"><img src="img/coach-helps-woman-doing-approach.webp" alt="coach-helps-woman-doing-approach"/></div>',
+  '<div class="gallery-carousel__slide"><img src="img/running-woman.webp" alt="running-woman" /></div>',
+  '<div class="gallery-carousel__slide"><img src="img/the-gym.webp" alt="the-gym" /></div>',
 ];
 
 let currentIdx = 0;
