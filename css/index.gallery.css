@@ -62,6 +62,10 @@
     max-height: 345px;
   }
 
+  .gallery-carousel {
+    padding: 40px 0 80px;
+  }
+
   .gallery-carousel__button--prev,
   .gallery-carousel__button--next {
     width: 32px;
@@ -80,6 +84,10 @@
 @media (min-width: 992px) {
   .gallery-carousel__slide img {
     height: 40vh;
+  }
+
+  .gallery-carousel {
+    padding: 40px 0 80px;
   }
 
   .gallery-carousel__button--prev {
