@@ -3,7 +3,7 @@
   font-weight: 500;
   display: grid;
   gap: 30px;
-  padding: 70px 0 25px;
+  padding: 70px 24px 25px;
 
   & * {
     display: block;
