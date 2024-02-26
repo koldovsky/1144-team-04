@@ -21,12 +21,12 @@
 }
 
 .articles__list {
-    display: flex;
+    display: grid;
     gap: 25px;
 }
 
 .picture__class {
-    display: flex;
+    display: grid;
     width: 320px;
     margin: 18px;
 }
@@ -71,25 +71,28 @@
     color: var(--footer-email-color);
     padding-bottom: 20px;
 }
+
 @media (min-width : 400px) {
-  .articles__list {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }  
+    .articles__list {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
+
 @media (min-width: 748px) {
     .articles__list {
         grid-template-columns: 1fr 1fr;
-    gap: 30px;
+        gap: 30px;
     }
-   
-    }
-    @media (min-width: 998px) {
-        .articles__list {
+
+}
+
+@media (min-width: 998px) {
+    .articles__list {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
-        }
     }
+}
 
 }
 
