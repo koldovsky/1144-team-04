@@ -13,7 +13,7 @@
 }
 
 .gallery-carousel__slide img {
-  aspect-ratio: 272 / 257;
+  aspect-ratio: 3 / 2;
   max-height: 272px;
 }
 
@@ -73,11 +73,11 @@
   }
 
   .gallery-carousel__button--prev {
-    left: 5%;
+    left: 2%;
   }
 
   .gallery-carousel__button--next {
-    right: 5%;
+    right: 2%;
   }
 }
 
@@ -88,13 +88,5 @@
 
   .gallery-carousel {
     padding: 40px 0 80px;
-  }
-
-  .gallery-carousel__button--prev {
-    left: 3.5%;
-  }
-
-  .gallery-carousel__button--next {
-    right: 3.5%;
   }
 }
