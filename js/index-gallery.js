@@ -40,6 +40,4 @@ const btnPrev = document.querySelector('.gallery-carousel__button--prev');
 btnNext.addEventListener('click', nextSlide);
 btnPrev.addEventListener('click', prevSlide);
 
-setInterval(nextSlide, 5000);
-
 window.addEventListener('resize', renderSlide);
