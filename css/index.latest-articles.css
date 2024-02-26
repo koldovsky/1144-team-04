@@ -71,3 +71,26 @@
     color: var(--footer-email-color);
     padding-bottom: 20px;
 }
+@media (min-width : 400px) {
+  .articles__list {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }  
+}
+@media (min-width: 748px) {
+    .articles__list {
+        grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    }
+   
+    }
+    @media (min-width: 998px) {
+        .articles__list {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        }
+    }
+
+}
+
+}
