@@ -29,6 +29,7 @@
     display: grid;
     width: 320px;
     margin: 18px;
+    text-align: center;
 }
 
 .articles__post {
@@ -93,7 +94,3 @@
         gap: 30px;
     }
 }
-.articles__img {
-    text-align: center;
-}
-
