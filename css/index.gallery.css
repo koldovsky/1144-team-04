@@ -1,6 +1,5 @@
 .gallery-carousel {
   padding: 40px 24px 80px;
-  min-height: 222px;
   margin: auto;
   position: relative;
 }
@@ -13,8 +12,8 @@
 }
 
 .gallery-carousel__slide img {
-  aspect-ratio: 3 / 2;
-  max-height: 272px;
+  height: 40vh;
+  object-fit: cover;
 }
 
 .gallery-carousel__button--prev,
@@ -82,10 +81,6 @@
 }
 
 @media (min-width: 992px) {
-  .gallery-carousel__slide img {
-    height: 40vh;
-  }
-
   .gallery-carousel {
     padding: 40px 0 80px;
   }
