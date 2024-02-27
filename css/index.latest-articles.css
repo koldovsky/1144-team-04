@@ -35,9 +35,9 @@
     font-weight: 500;
     margin-top: 15px;
     font-family: sans-serif;
-    margin-left: 18px;
+    margin-left: auto;
     margin-bottom: 18px;
-    margin-right: 18px;
+    margin-right: auto;
     margin-top: 5px;
     color: var(--title-color);
     text-align: left;
@@ -47,18 +47,20 @@
     font-weight: 400;
     font-size: 17px;
     font-family: sans-serif;
-    margin: 18px;
+    margin: auto;
     padding-bottom: 20px;
     text-align: left;
+    display: inline-block;
 }
 
 .buttom__class {
     font-weight: 500;
     font-size: 15.4px;
     text-decoration: none;
-    margin: 18px;
+    margin: auto;
     color: var(--title-color);
     text-align: left;
+    display: inline-block;
 }
 
 .articles__name {
@@ -81,6 +83,8 @@
         grid-template-columns: 1fr;
         gap: 30px;
         text-align: center;
+        margin: auto;
+        padding: 15px;
     }
 }
 
@@ -88,13 +92,17 @@
     .articles__list {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        text-align: left;
+        margin: auto;
+        padding: 18px;
     }
-
 }
 
 @media (min-width: 998px) {
     .articles__list {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
+        text-align: left;
+        margin: auto;
     }
 }
