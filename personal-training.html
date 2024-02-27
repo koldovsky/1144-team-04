@@ -21,27 +21,36 @@
           <p class="modal-header">
             START PERSONAL TRAINING AND MAKE THE IMPOSSIBLE HAPPEN!
           </p>
-          <input
-            class="modal-name-input"
-            type="text"
-            placeholder="Enter your name*"
-            required
-          />
-          <input
-            class="modal-phone-input"
-            type="tel"
-            placeholder="Enter your phone number*"
-            required
-          />
-          <input
-            class="modal-email-input"
-            type="email"
-            placeholder="Enter your e-mail*"
-            required
-          />
-          <div class="modal-submit-button">
-            <p class="modal-submit-button-text">GET STARTED TODAY</p>
-          </div>
+          <form
+            id="get-started-form"
+            action="https://formspree.io/f/meqykzbw"
+            method="post"
+          >
+            <input
+              class="modal-name-input"
+              type="text"
+              placeholder="Enter your name*"
+              name="name"
+              required
+            />
+            <input
+              class="modal-phone-input"
+              type="tel"
+              placeholder="Enter your phone number*"
+              name="phone"
+              required
+            />
+            <input
+              class="modal-email-input"
+              type="email"
+              placeholder="Enter your e-mail*"
+              name="email"
+              required
+            />
+            <button id="get-started-form-button" class="modal-submit-button">
+              <p class="modal-submit-button-text">GET STARTED TODAY</p>
+            </button>
+          </form>
         </div>
       </div>
     </div>
