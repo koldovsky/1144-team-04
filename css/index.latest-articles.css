@@ -82,6 +82,7 @@
         gap: 30px;
         text-align: center;
         margin: auto;
+        padding: 15px;
     }
 }
 
@@ -91,6 +92,7 @@
         gap: 30px;
         text-align: left;
         margin: auto;
+        padding: 18px;
     }
 .articles__coach {
     text-align: center;
