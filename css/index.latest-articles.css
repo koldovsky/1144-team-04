@@ -27,8 +27,9 @@
 
 .picture__class {
     display: grid;
-    width: 715px;
+    width: 100%;
     margin: auto;
+    position: relative;
 }
 
 .articles__post {
