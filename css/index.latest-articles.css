@@ -27,7 +27,7 @@
 
 .picture__class {
     display: grid;
-    width: 320px;
+    width: 715px;
     margin: auto;
 }
 
@@ -60,7 +60,8 @@
 
 .articles__name {
     color: var(--text-color);
-    margin: 18px;
+    font-size: 22px;
+    margin: auto;
 }
 
 .buttom__class:hover {
