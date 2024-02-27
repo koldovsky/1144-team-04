@@ -40,6 +40,7 @@
     margin-right: 18px;
     margin-top: 5px;
     color: var(--title-color);
+    text-align: left;
 }
 
 .articles__content {
@@ -48,6 +49,7 @@
     font-family: sans-serif;
     margin: 18px;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .buttom__class {
@@ -56,6 +58,7 @@
     text-decoration: none;
     margin: 18px;
     color: var(--title-color);
+    text-align: left;
 }
 
 .articles__name {
