@@ -50,6 +50,7 @@
     margin: auto;
     padding-bottom: 20px;
     text-align: left;
+    display: inline-block;
 }
 
 .buttom__class {
@@ -59,6 +60,7 @@
     margin: auto;
     color: var(--title-color);
     text-align: left;
+    display: inline-block;
 }
 
 .articles__name {
