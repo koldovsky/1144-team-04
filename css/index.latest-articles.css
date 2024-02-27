@@ -92,6 +92,10 @@
         text-align: left;
         margin: auto;
     }
+.articles__coach {
+    text-align: center;
+    margin: auto;
+}
 
 }
 
