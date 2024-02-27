@@ -80,10 +80,11 @@
     .articles__list {
         grid-template-columns: 1fr;
         gap: 30px;
+        text-align: center;
     }
 }
 
-@media (min-width: 748px) {
+@media (min-width: 700px) {
     .articles__list {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
