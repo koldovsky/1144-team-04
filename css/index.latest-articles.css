@@ -94,11 +94,6 @@
         margin: auto;
         padding: 18px;
     }
-.articles__coach {
-    text-align: center;
-    margin: auto;
-}
-
 }
 
 @media (min-width: 998px) {
