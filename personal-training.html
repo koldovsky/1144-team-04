@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Training</title>
+    <link
+      rel="shortcut icon"
+      href="img/icons/dumbbell-icon.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="css/personal-training.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Training</title>
-  <link rel="shortcut icon" href="img/icons/dumbbell-icon.png" type="image/png" />
-  <link rel="stylesheet" href="css/personal-training.css">
-</head>
+  <body>
+    <header data-include="header-nav.partial.html"></header>
+    <div class="personal-training-modal-wrapper modal-hidden">
+      <div class="personal-training-modal-container">
+        <div class="modal-close-btn"></div>
+        <div class="personal-training-modal">
+          <p class="modal-header">
+            START PERSONAL TRAINING AND MAKE THE IMPOSSIBLE HAPPEN!
+          </p>
+          <input
+            class="modal-name-input"
+            type="text"
+            placeholder="Enter your name*"
+            required
+          />
+          <input
+            class="modal-phone-input"
+            type="tel"
+            placeholder="Enter your phone number*"
+            required
+          />
+          <input
+            class="modal-email-input"
+            type="email"
+            placeholder="Enter your e-mail*"
+            required
+          />
+          <div class="modal-submit-button">
+            <p class="modal-submit-button-text">GET STARTED TODAY</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<body>
-  <header data-include="header-nav.partial.html"></header>
-  <main>
     <section class="personal-training-header">
       <div class="personal-training-header__left-container">
         <h2 class="left-container__title">PERSONAL TRAINING</h2>
@@ -26,30 +60,56 @@
           experience possible during personal training.
         </p>
         <button class="right-container__join-now-button">
-          <svg class="right-container__join-now-button-icon" width="24" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
-            enable-background="new 0 0 100 100" xml:space="preserve" style="max-width: 100%" height="100%">
+          <svg
+            class="right-container__join-now-button-icon"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 100"
+            enable-background="new 0 0 100 100"
+            xml:space="preserve"
+            style="max-width: 100%"
+            height="100%"
+          >
             <g display="none" fill="currentColor">
-              <path display="inline"
+              <path
+                display="inline"
                 d="M60.267,14.063L14.065,60.27l25.668,25.667l46.201-46.204V14.063H60.267z M72.624,32.219   c-2.671,0-4.84-2.174-4.84-4.841c0-2.678,2.169-4.844,4.84-4.844s4.836,2.166,4.836,4.844   C77.46,30.045,75.295,32.219,72.624,32.219z"
-                fill="currentColor"></path>
+                fill="currentColor"
+              ></path>
             </g>
             <g display="none" fill="currentColor">
-              <path display="inline"
+              <path
+                display="inline"
                 d="M71.686,85.706L69,60l16.982-17.541L62,39L50.001,13.98L38,39l-23.982,3.284L31,60l-2.692,25.676   L49.98,72c0.017,0,0.028,0,0.049,0L71.686,85.706z"
-                fill="currentColor"></path>
+                fill="currentColor"
+              ></path>
             </g>
             <g display="none" fill="currentColor">
-              <path display="inline"
+              <path
+                display="inline"
                 d="M50,17.06c-18.194,0-32.941,14.747-32.941,32.945C17.06,68.192,31.806,82.94,50,82.94   c18.192,0,32.94-14.748,32.94-32.936C82.94,31.807,68.192,17.06,50,17.06z M53.117,73.733V61.981H47.13v11.789   C36.2,72.458,27.52,63.769,26.225,52.831h11.755v-5.993H26.275c1.429-10.777,10.036-19.306,20.855-20.605v11.456h5.987V26.27   c10.701,1.403,19.188,9.875,20.609,20.568H62.274v5.993h11.5C72.488,63.684,63.932,72.317,53.117,73.733z"
-                fill="currentColor"></path>
+                fill="currentColor"
+              ></path>
             </g>
             <g display="none" fill="currentColor">
-              <rect x="14" y="36" display="inline" width="72" height="27" fill="currentColor"></rect>
+              <rect
+                x="14"
+                y="36"
+                display="inline"
+                width="72"
+                height="27"
+                fill="currentColor"
+              ></rect>
             </g>
             <g fill="currentColor">
-              <polygon points="14.033,14.036 44.019,14.036 80,50.018 44.019,86 14.033,86 50.016,50.018  "
-                fill="currentColor"></polygon>
+              <polygon
+                points="14.033,14.036 44.019,14.036 80,50.018 44.019,86 14.033,86 50.016,50.018  "
+                fill="currentColor"
+              ></polygon>
             </g>
           </svg>
           <p class="right-container__join-now-button-text">JOIN NOW</p>
@@ -58,8 +118,11 @@
     </section>
     <section class="personal-training-article">
       <div class="personal-training-article__image-container">
-        <img class="personal-training-article__image" src="img/women-with-botte.webp"
-          alt="Woman Standing In Gym With Bottle In Hand" />
+        <img
+          class="personal-training-article__image"
+          src="img/women-with-botte.webp"
+          alt="Woman Standing In Gym With Bottle In Hand"
+        />
       </div>
       <article class="personal-training-article__text-container">
         <p class="personal-training-article__title">
@@ -70,20 +133,26 @@
         </p>
         <p class="personal-training-article__plain">
           Your personal fitness instructor will work with you 1-on-1 to define
-          your fitness level, set your individual goals, assess your
-          movements, and offer a program specially designed to optimize your
-          strengths and reach your goals as quickly as possible.
+          your fitness level, set your individual goals, assess your movements,
+          and offer a program specially designed to optimize your strengths and
+          reach your goals as quickly as possible.
         </p>
       </article>
     </section>
     <section class="training-benefits">
-      <h2 class="training-benefits__title">TRAINING <span class="selected-text">BENEFITS</span></h2>
+      <h2 class="training-benefits__title">
+        TRAINING <span class="selected-text">BENEFITS</span>
+      </h2>
       <p class="training-benefits__subtitle">
         Find out why you should sign up for an individual workout session:
       </p>
       <div class="training-benefits__items">
         <div class="training-benefits__item">
-          <img class="training-benefits__item-icon" src="img/icons/strong-hand.svg" alt="Strong Hand Icon" />
+          <img
+            class="training-benefits__item-icon"
+            src="img/icons/strong-hand.svg"
+            alt="Strong Hand Icon"
+          />
           <p class="training-benefits__item-title">LEARN TO STICK TO IT</p>
           <p class="training-benefits__item-subtitle">
             We will encourage you to overcome your fitness obstacles. With a
@@ -91,17 +160,23 @@
           </p>
         </div>
         <div class="training-benefits__item">
-          <img class="training-benefits__item-icon" src="img/icons/gym.svg" alt="Strong Hand Icon" />
-          <p class="training-benefits__item-title">
-            THE RIGHT WAY TO WORK OUT
-          </p>
+          <img
+            class="training-benefits__item-icon"
+            src="img/icons/gym.svg"
+            alt="Strong Hand Icon"
+          />
+          <p class="training-benefits__item-title">THE RIGHT WAY TO WORK OUT</p>
           <p class="training-benefits__item-subtitle">
             Your trainer will show you how to use equipment and the best
             techniques for free-weight training.
           </p>
         </div>
         <div class="training-benefits__item">
-          <img class="training-benefits__item-icon" src="img/icons/timer.svg" alt="Strong Hand Icon" />
+          <img
+            class="training-benefits__item-icon"
+            src="img/icons/timer.svg"
+            alt="Strong Hand Icon"
+          />
           <p class="training-benefits__item-title">STOP WASTING TIME</p>
           <p class="training-benefits__item-subtitle">
             We offer personalized programs to maximize your results in a short
@@ -112,26 +187,42 @@
     </section>
     <section class="quote-carousel">
       <button class="quote-carousel__button quote-carousel__button-left">
-        <svg class="quote-carousel__button-left-icon" class="arrow-svg_1j4" viewBox="0 0 30 30">
+        <svg
+          class="quote-carousel__button-left-icon"
+          class="arrow-svg_1j4"
+          viewBox="0 0 30 30"
+        >
           <defs>
             <path
               d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-              id="a-1706955887007"></path>
+              id="a-1706955887007"
+            ></path>
           </defs>
-          <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1706955887007"></use>
-        </svg>
+          <use
+            fill-rule="nonzero"
+            opacity=".8"
+            xlink:href="#a-1706955887007"
+          ></use>
         </svg>
       </button>
-          <div class="quote-carousel__carousel-track">
-          </div>
+      <div class="quote-carousel__carousel-track"></div>
       <button class="quote-carousel__button quote-carousel__button-right">
-        <svg class="quote-carousel__button-right-icon" class="arrow-svg_1j4" viewBox="0 0 30 30">
+        <svg
+          class="quote-carousel__button-right-icon"
+          class="arrow-svg_1j4"
+          viewBox="0 0 30 30"
+        >
           <defs>
             <path
               d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-              id="a-1706955887007"></path>
+              id="a-1706955887007"
+            ></path>
           </defs>
-          <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1706955887007"></use>
+          <use
+            fill-rule="nonzero"
+            opacity=".8"
+            xlink:href="#a-1706955887007"
+          ></use>
         </svg>
       </button>
     </section>
@@ -157,10 +248,8 @@
         </div>
       </div>
     </section>
-  </main>
-  <footer data-include="footer.partial.html"></footer>
-  <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-  <script type="module" src="js/personal-training/index.js"></script>
-</body>
-
+    <footer data-include="footer.partial.html"></footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script type="module" src="js/personal-training/index.js"></script>
+  </body>
 </html>
