@@ -81,6 +81,7 @@
         grid-template-columns: 1fr;
         gap: 30px;
         text-align: center;
+        margin: auto;
     }
 }
 
@@ -88,6 +89,8 @@
     .articles__list {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        text-align: left;
+        margin: auto;
     }
 
 }
@@ -96,5 +99,7 @@
     .articles__list {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
+        text-align: left;
+        margin: auto;
     }
 }
