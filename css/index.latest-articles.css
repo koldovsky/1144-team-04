@@ -7,8 +7,9 @@
     font-family: sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 46px;
+    font-size: 38px;
     color: var(--title-color);
+    text-transform: uppercase;
 }
 
 .articles__strong {
@@ -35,8 +36,8 @@
 }
 
 .articles__post {
-    font-weight: 500;
-    padding-top: 25px;
+    font-weight: 350;
+    padding-top: 18px;
     font-family: "Poppins", sans-serif;
     margin-left: auto;
     margin-bottom: 18px;
