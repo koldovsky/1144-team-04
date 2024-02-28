@@ -36,7 +36,7 @@
 }
 
 .articles__post {
-    font-weight: 200;
+    font-weight: 350;
     padding-top: 18px;
     font-family: "Poppins", sans-serif;
     margin-left: auto;
@@ -45,6 +45,7 @@
     margin-top: 5px;
     color: var(--title-color);
     text-align: left;
+    font-size: small;
 }
 
 .articles__content {
