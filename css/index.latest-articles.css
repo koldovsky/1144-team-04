@@ -52,6 +52,7 @@
     text-align: left;
     display: inline-block;
     color: var(--basic-text-color);
+    filter: opacity(.6);
 }
 
 .buttom__class {
