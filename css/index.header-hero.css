@@ -134,6 +134,34 @@
 }
 
 @media screen and (max-width: 768px) {
+    .btn-join-now {
+        font-size: 10px;
+        padding: 10px 25px;
+        margin-top: 30px;
+    }
+
+    .modal-title__container{
+        padding-bottom: 20px;
+    }
+
+    .modal {
+        width: 55%;
+      }
+
+    .modal-title {
+        font-size: 25px;
+    }
+
+    .modal input {
+        margin-top: 10px;
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    
+    .inputs {
+        gap: 8px;
+    }
+
 	.header {
 		background-position: 70% 70%;
 	}

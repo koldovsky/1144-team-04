@@ -9,9 +9,11 @@ const closeModalBtn = document.querySelector(".btn-close");
 
 btnSub.addEventListener("click", () => {
     header.classList.toggle("responsive");
+    body.style.overflow = "hidden";
 })
 
 navLinks.addEventListener("click", () => {
+    body.classList.remove("hidden")
     header.classList.remove("responsive");
 })
 
