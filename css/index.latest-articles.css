@@ -6,6 +6,7 @@
     font-style: normal;
     font-size: 46px;
     color: var(--title-color);
+    padding-top: 25px;
 }
 
 .articles__strong {
