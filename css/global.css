@@ -15,7 +15,6 @@ img {
 body {
 
     position: relative;
-
     max-width: 1200px;
     margin: auto;
     
@@ -52,6 +51,7 @@ body {
     --title-color: #ffffff;
     --accent-color: #8f8f8f;
     --input-color: #232323;
+    --input-focus-color: #3b99fc;
     --footer-email-color: #1e1e1e;
     --suggestion-font-size-s: font-size: 15px;
     --suggestion-font-size-m: font-size: 17px;
@@ -64,8 +64,4 @@ body {
     font-family: "Kanit", sans-serif;
     scroll-behavior: smooth;
     background-color: var(--background-color);
-    
-    &.responsive {
-        background-color: var(----background-color-dark);
-      }
 }   
