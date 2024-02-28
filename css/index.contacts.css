@@ -171,6 +171,13 @@
   }
 }
 
+.contacts__form-status {
+  margin-top: 20px;
+  color: var(--basic-text-color);
+  font-size: 19px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .contacts {
     grid-template-columns: 3fr 2fr;
