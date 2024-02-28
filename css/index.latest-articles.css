@@ -36,8 +36,8 @@
 
 .articles__post {
     font-weight: 500;
-    margin-top: 15px;
-    font-family: sans-serif;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
     margin-left: auto;
     margin-bottom: 18px;
     margin-right: auto;
@@ -71,6 +71,8 @@
     color: var(--text-color);
     font-size: 22px;
     margin: auto;
+    font-family: "Kanit", sans-serif;
+
 }
 
 .buttom__class:hover {
