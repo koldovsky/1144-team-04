@@ -51,13 +51,14 @@
     padding-bottom: 20px;
     text-align: left;
     display: inline-block;
+    color: var(--basic-text-color);
 }
 
 .buttom__class {
     font-weight: 500;
     font-size: 15.4px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: auto;
     color: var(--title-color);
     text-align: left;
     display: inline-block;
