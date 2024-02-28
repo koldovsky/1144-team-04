@@ -57,7 +57,7 @@
     font-weight: 500;
     font-size: 15.4px;
     text-decoration: none;
-    margin: auto;
+    margin-top: 20px;
     color: var(--title-color);
     text-align: left;
     display: inline-block;
