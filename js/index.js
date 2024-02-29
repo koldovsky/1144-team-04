@@ -4,4 +4,5 @@ document.addEventListener("partialsLoaded", () => {
   import("./index-our-classes.js");
   import("./index-gallery.js");
   import("./index.latest-articles.js");
+  import("./personal-training/image-anim.js");
 });
