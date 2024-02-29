@@ -1,7 +1,7 @@
 .personal-training {
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 24px;
+    padding: 80px  24px 0px 24px;
 }
 
 .plank-exercise__image {
