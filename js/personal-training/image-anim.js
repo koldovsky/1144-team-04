@@ -2,7 +2,6 @@ let imageContainers = document.querySelectorAll(".image-hover-anim");
 
 for (const imageContainer of imageContainers) {
   imageContainer.addEventListener("mousemove", (e) => {
-    console.log("da");
     const offsetX = e.offsetX - imageContainer.offsetWidth / 2;
     const offsetY = e.offsetY - imageContainer.offsetHeight / 2;
     const angleX = (offsetY / imageContainer.offsetHeight) * 30;
