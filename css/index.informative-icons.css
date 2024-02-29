@@ -4,11 +4,12 @@
 }
 
 .info-block {
-    padding: 5px 0px;
+    padding: 25px 0px;
 }
 
 .info-block__icon {
     width: 50px;
+    padding-top: 20px;
 
 }
 
