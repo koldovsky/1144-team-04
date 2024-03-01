@@ -27,6 +27,7 @@
   display: block;
   height: auto;
   aspect-ratio: 4.03 / 5;
+  object-fit: cover;
 }
 
 .trainers__title {
