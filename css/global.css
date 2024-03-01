@@ -21,6 +21,10 @@ body {
     &.fixed {
         position: fixed;
     }
+
+    &.overflow {
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 768px) {

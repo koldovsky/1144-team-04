@@ -5,13 +5,13 @@ const closeButton = document.querySelector(".contacts__close-button");
 const wrapper = document.querySelector(".contacts__pop-up-wrapper");
 
 openButton.addEventListener("click", () => {
-  body.classList.toggle("fixed");
+  body.classList.toggle("overflow");
   modal.classList.toggle("responsive");
   wrapper.classList.toggle("responsive");
 });
 
 closeButton.addEventListener("click", () => {
-  body.classList.remove("fixed");
+  body.classList.remove("overflow");
   modal.classList.remove("responsive");
   wrapper.classList.remove("responsive");
 });
