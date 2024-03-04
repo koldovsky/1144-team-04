@@ -1,0 +1,23 @@
+.how-to-start__title {
+    color: var(--title-color);
+}
+       
+.how-to-start__subtitle {
+    color: var(--title-color);
+}
+
+.how-to-start__another__title {
+    color: var(--text-color);
+}
+
+.how-to-start__link {
+    color: var(--accent-color);
+}
+
+.how-to-start__third__title {
+    color: var(--text-color);
+}
+
+.how-to-start__third__anouther__title {
+    color: var(--accent-color);
+}
