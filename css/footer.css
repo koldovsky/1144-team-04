@@ -12,6 +12,7 @@
   margin: 60px 0;
 }
 
+.footer a:visited,
 .footer a:link {
   color: var(--accent-color);
   text-decoration: none;
@@ -21,7 +22,7 @@
   color: var(--title-color);
 }
 
-.outer_bDW,
+.footer a:visited .outer_bDW,
 .border_2yy,
 .logo_2gS {
   color: var(--text-color);
@@ -32,8 +33,8 @@
 }
 
 .footer-content__form-heading {
+  font-family: 'Kanit', sans-serif;
   margin-bottom: 15px;
-  letter-spacing: 1.1px;
 }
 
 .footer-content__email-field,
@@ -41,7 +42,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: var(--footer-font-size-l);
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 100%;
   height: 60px;
   border: 0;
@@ -59,7 +60,7 @@
 
 .footer-rights {
   margin-bottom: 60px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--accent-color);
 }
 
@@ -90,8 +91,8 @@
 
 .item-content__heading {
   margin: 30px 0 0 0;
-  text-transform: uppercase;
-  color: var(--text-color);
+  text-transform: capitalize;
+  color: var(--title-color);
   font-size: 19px;
 }
 
@@ -104,9 +105,6 @@
 .socials-container__color {
   display: flex;
   flex-direction: row;
-  width: 30px;
-  height: 30px;
-  margin: 0 3.5px 0 3.5px;
   border: 1px solid var(--text-color);
 }
 
@@ -150,8 +148,8 @@
   }
 
   .item-content__heading {
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 19px;
     margin: 0;
   }
 
@@ -169,10 +167,11 @@
 
   .footer-content__form-heading {
     margin: 0 0 20px 0;
-    text-transform: uppercase;
+    font-size: 23px;
+    text-transform: capitalize;
     text-align: left;
-    color: var(--text-color);
-    font-weight: 700;
+    color: var(--title-color);
+    font-weight: 500;
   }
 
   .footer-content__email-field,
@@ -180,7 +179,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: var(--footer-font-size-m);
-    text-transform: uppercase;
+    text-transform: capitalize;
     width: 100%;
     height: 47px;
     border: 0;
