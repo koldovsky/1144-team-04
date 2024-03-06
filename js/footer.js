@@ -11,7 +11,7 @@ async function handleSubmit(event) {
         }
     })
     if (response.ok) {
-            status.innerHTML = "Thanks for your subcription!";
+            status.innerHTML = "Thanks for your subsription!";
             form.reset()
     } else {
         status.innerText = 'There was an error!';
