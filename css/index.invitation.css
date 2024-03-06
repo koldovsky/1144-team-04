@@ -1,3 +1,7 @@
+.invitation {
+    padding: 0 32px;
+}
+
 .invitation__content {
     margin: 70px 0;
     padding: 39px;
@@ -68,7 +72,10 @@
     .invitation__content-article {
         font-size: 19px;
     }
-};;
+}
+
+;
+;
 
 @media (min-width: 992px) {
     .invitation__content-heading {

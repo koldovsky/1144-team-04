@@ -1,4 +1,9 @@
+.suggestion {
+    padding: 0 32px;
+}
+
 .suggestion__content {
+    padding: 0 32px;
     color: var(--accent-color);
     text-align: left;
     font-family: 'Poppins', sans-serif;
