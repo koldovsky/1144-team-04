@@ -1,21 +1,18 @@
-const form = document.getElementById("contact-form");
+const footerForm = document.querySelector(".content__form-link");
 
-async function handleSubmit(event) {
+async function toSumbit(event) {
     event.preventDefault();
-    const status = document.getElementById("contact-form-status");
-    const response = await fetch(event.target.action, {
-        method: form.method,
+    const formStatus = document.querySelector(".footer-content__email-paragraph");
+    const formResponse = await fetch(event.target.action, {
+        method: footerForm.method,
         body: new FormData(event.target),
-        headers: {
-            'Accept': 'application/json'
-        }
     })
-    if (response.ok) {
-            status.innerHTML = "Thanks for your subsription!";
+    if (formResponse.ok) {
+            formStatus.innerHTML = "Thanks for your subsription!";
             form.reset()
     } else {
-        status.innerText = 'There was an error!';
+        formStatus.innerText = 'There was an error!';
     };
 }
 
-form.addEventListener("submit", handleSubmit);
+form.addEventListener("submit", toSumbit);
