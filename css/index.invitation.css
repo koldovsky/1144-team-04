@@ -47,15 +47,11 @@
 
 .invitation a:visited,
 .invitation a:link {
-    width: 135px;
-    height: 49px;
     text-decoration: none;
     color: var(--title-color);
 }
 
 .invitation a:hover {
-    width: 135px;
-    height: 49px;
     color: var(--background-color);
     background: var(--title-color);
 }

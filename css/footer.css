@@ -134,7 +134,7 @@
   border: 1px solid var(--text-color);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .footer-content {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
