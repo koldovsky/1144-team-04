@@ -137,12 +137,19 @@
 @media (min-width: 868px) {
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+    grid-template-columns: repeat(1fr, 1.5fr, 1.5fr, 1.5fr, 1fr);
     gap: 20px;
   }
 
   .item-content__socials {
     justify-content: left;
+  }
+
+  .footer-content__columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
   }
 
   .footer {
@@ -181,7 +188,7 @@
   }
 
   .footer-content__item {
-    margin: 0 10px;
+    /* margin: 0 10px; */
   }
 
   .footer-content__form {
