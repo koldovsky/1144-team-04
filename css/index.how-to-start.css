@@ -1,23 +1,124 @@
+.how-to-start {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 24px ;
+}
+
 .how-to-start__title {
     color: var(--title-color);
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    display: inline;
+    letter-spacing: 0.76px;
+    line-height: 41.8px   
 }
-       
+
 .how-to-start__subtitle {
-    color: var(--title-color);
+    color: var(--basic-text-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: normal;
+    line-height: 29.64px;
 }
 
 .how-to-start__another__title {
     color: var(--text-color);
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: normal;
+    line-height: 30.8px;
 }
 
 .how-to-start__link {
     color: var(--accent-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 25.5px;
 }
 
 .how-to-start__third__title {
     color: var(--text-color);
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: normal;
+    line-height: 30.8px;
+
 }
 
 .how-to-start__third__anouther__title {
     color: var(--accent-color);
+    text-align: left;
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 25.5px;
+}
+
+.how-to-start__image {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    flex-basis: 50%; 
+}
+
+.how-to-start__info{
+    flex-basis: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+    
+}
+@media (min-width: 768px) {
+    .how-to-start {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .how-to-start__text {
+        width: 302px;
+    }
+
+    .how-to-start__title {
+        font-size: 46px;
+    }
+
+    .how-to-start__image {
+        width: 302px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .how-to-start {
+        flex-direction: row;
+        align-items: start;
+        gap: 100px;
+    }
+
+    .how-to-start__text {
+        width: 406px;
+    }
+
+    .how-to-start__title {
+        font-size: 54px;
+    }
+
+    .how-to-start__image {
+        width: 406px;
+    }
 }
