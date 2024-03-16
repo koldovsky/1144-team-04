@@ -1,3 +1,7 @@
+.invitation {
+    padding: 0 32px;
+}
+
 .invitation__content {
     margin: 70px 0;
     padding: 39px;
@@ -43,15 +47,11 @@
 
 .invitation a:visited,
 .invitation a:link {
-    width: 135px;
-    height: 49px;
     text-decoration: none;
     color: var(--title-color);
 }
 
 .invitation a:hover {
-    width: 135px;
-    height: 49px;
     color: var(--background-color);
     background: var(--title-color);
 }
@@ -68,7 +68,10 @@
     .invitation__content-article {
         font-size: 19px;
     }
-};;
+}
+
+;
+;
 
 @media (min-width: 992px) {
     .invitation__content-heading {

@@ -1,13 +1,15 @@
 const body = document.querySelector("body");
-const modal = document.querySelector(".contacts__form-container");
-const openButton = document.querySelector(".contacts__open-button");
-const closeButton = document.querySelector(".contacts__close-button");
-const wrapper = document.querySelector(".contacts__pop-up-wrapper");
+const modal = document.querySelector(".popup-form-container");
+const openButtons = document.querySelectorAll(".select-plan");
+const closeButton = document.querySelector(".popup-close-button");
+const wrapper = document.querySelector(".popup-wrapper");
 
-openButton.addEventListener("click", () => {
-  body.classList.toggle("overflow");
-  modal.classList.toggle("responsive");
-  wrapper.classList.toggle("responsive");
+openButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    body.classList.toggle("overflow");
+    modal.classList.toggle("responsive");
+    wrapper.classList.toggle("responsive");
+  });
 });
 
 closeButton.addEventListener("click", () => {
@@ -16,11 +18,11 @@ closeButton.addEventListener("click", () => {
   wrapper.classList.remove("responsive");
 });
 
-const form = document.querySelector(".contacts__form");
+const form = document.querySelector(".popup-form");
 
 async function handleSubmit(event) {
   event.preventDefault();
-  const status = document.querySelector(".contacts__form-status");
+  const status = document.querySelector(".popup-form-status");
   const response = await fetch(event.target.action, {
     method: form.method,
     body: new FormData(event.target),

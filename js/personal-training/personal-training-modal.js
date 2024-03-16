@@ -7,18 +7,19 @@ let modalWindowWrapper = document.querySelector(
 
 modalOpenBtn.addEventListener("click", () => {
   modalWindow.classList.toggle("modal-hidden");
-  document.querySelector("body").style.overflow = "hidden";
+  modalWindow.style.width = window.innerWidth + "px!important";
+  // document.querySelector("body").style.overflow = "hidden";
 });
 
 modalCloseBtn.addEventListener("click", () => {
   modalWindow.classList.toggle("modal-hidden");
-  document.querySelector("body").style.overflow = "visible";
+  // document.querySelector("body").style.overflow = "visible";
 });
 
 modalWindowWrapper.addEventListener("click", (event) => {
   if (event.target === modalWindowWrapper) {
     modalWindow.classList.toggle("modal-hidden");
-    document.querySelector("body").style.overflow = "visible";
+    // document.querySelector("body").style.overflow = "visible";
   }
 });
 
@@ -28,5 +29,6 @@ let modalOpenBtnSec = document.querySelector(
 
 modalOpenBtnSec.addEventListener("click", () => {
   modalWindow.classList.toggle("modal-hidden");
-  document.querySelector("body").style.overflow = "hidden";
+  modalWindow.style.width = window.innerWidth + "px!important";
+  // document.querySelector("body").style.overflow = "hidden";
 });

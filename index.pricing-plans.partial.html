@@ -1,4 +1,4 @@
-<section class="pricing-plans">
+<div class="pricing-plans">
   <h2 class="pricing-plans__title">PRICING PLANS</h2>
   <p class="pricing-plans__paragraph">Choose a pricing plan which suits your fitness goals.</p>
   <div class="plan">
@@ -15,7 +15,7 @@
       <li>5 personal training sessions</li>
     </ul>
     <div>
-      <button class="select-plan">SELECT PLAN</button>
+      <button class="select-plan" type="button">SELECT PLAN</button>
     </div>
   </div>
   <div class="plan">
@@ -29,7 +29,7 @@
       <li>No individual sessions</li>
     </ul>
     <div>
-      <button class="select-plan">SELECT PLAN</button>
+      <button class="select-plan" type="button">SELECT PLAN</button>
     </div>
   </div>
   <div class="plan">
@@ -46,7 +46,59 @@
       <li>-10% on additional services</li>
     </ul>
     <div>
-      <button class="select-plan">SELECT PLAN</button>
+      <button class="select-plan" type="button">SELECT PLAN</button>
     </div>
   </div>
-</section>
+</div>
+<div class="popup-wrapper">
+  <div class="popup-form-container">
+    <div class="popup-close-button-container">
+      <img
+        class="popup-close-button"
+        src="img/contacts-close-button.svg"
+        alt="Close button"
+      />
+    </div>
+    <article class="popup-form-container-content">
+      <h3 class="popup-title">NEED ASSISTANCE?</h3>
+      <p class="popup-subtitle">
+        Fill out this form and our consultant will get in touch with you to
+        answer your questions or schedule a visit.
+      </p>
+      <form
+        class="popup-form"
+        action="https://formspree.io/f/xqkrpgdq"
+        method="POST"
+      >
+        <input
+          class="popup-input"
+          type="text"
+          name="full-name"
+          placeholder="Enter your full name*"
+          required
+        />
+        <input
+          class="popup-input"
+          type="number"
+          name="phone-number"
+          placeholder="Enter your phone number*"
+          required
+        />
+        <input
+          class="popup-input"
+          type="email"
+          name="email"
+          placeholder="Enter your e-mail*"
+          required
+        />
+        <textarea
+          class="popup-input popup-textarea"
+          name="contacts-message"
+          placeholder="Type your message"
+        ></textarea>
+        <input class="popup-submit-button" type="submit" value="SEND" />
+        <p class="popup-form-status"></p>
+      </form>
+    </article>
+  </div>
+</div>
