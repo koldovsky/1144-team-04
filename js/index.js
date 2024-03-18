@@ -8,4 +8,5 @@ document.addEventListener("partialsLoaded", () => {
   import("./index-pricing-plans.js");
   import("./footer.js");
   import("./gym-quotes.js");
+  import("./footer-column.js")
 });
